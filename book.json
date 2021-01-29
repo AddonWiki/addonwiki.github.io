@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "highlight"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "auto_open": true
+        }
+    },
+    "id": 483922,
+    "title": "Addon",
+    "description": "",
+    "cover": "cover.jpg"
+}
