@@ -1,14 +1,28 @@
 {
     "plugins": [
-        "highlight"
+        "highlight",
+        "tex",
+        "ad",
+        "copyright",
+        "image-zoom",
+        "sequence",
+        "flow",
+        "copy-code"
     ],
     "pluginsConfig": {
         "theme-default": {
             "auto_open": true
+        },
+        "highlight": {
+            "defaultLanguage": "javascript"
+        },
+        "ad": {
+            "beforeArticleBody": [],
+            "afterArticleBody": []
         }
     },
     "id": 483922,
-    "title": "Addon",
+    "title": "AddonWiki",
     "description": "",
     "cover": "cover.jpg"
 }
