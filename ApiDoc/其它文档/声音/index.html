@@ -1,0 +1,679 @@
+<html><head><meta charSet="utf-8"/><title data-react-helmet="true">声音 · AddonWiki · 看云</title><meta data-react-helmet="true" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/><link rel="stylesheet" href="../../../asset/plugins/theme-default/reader/style.css"/><style data-react-helmet="true" type="text/css">.ಠhighlight-container code[class*=language-],.ಠhighlight-container pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}.ಠhighlight-container code[class*=language-]::-moz-selection,.ಠhighlight-container code[class*=language-] ::-moz-selection,.ಠhighlight-container pre[class*=language-]::-moz-selection,.ಠhighlight-container pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}.ಠhighlight-container code[class*=language-]::selection,.ಠhighlight-container code[class*=language-] ::selection,.ಠhighlight-container pre[class*=language-]::selection,.ಠhighlight-container pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{.ಠhighlight-container code[class*=language-],.ಠhighlight-container pre[class*=language-]{text-shadow:none}}.ಠhighlight-container pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}.ಠhighlight-container :not(pre)>code[class*=language-],.ಠhighlight-container pre[class*=language-]{background:#f5f2f0}.ಠhighlight-container :not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.ಠhighlight-container .token.cdata,.ಠhighlight-container .token.comment,.ಠhighlight-container .token.doctype,.ಠhighlight-container .token.prolog{color:#708090}.ಠhighlight-container .token.punctuation{color:#999}.ಠhighlight-container .namespace{opacity:.7}.ಠhighlight-container .token.boolean,.ಠhighlight-container .token.constant,.ಠhighlight-container .token.deleted,.ಠhighlight-container .token.number,.ಠhighlight-container .token.property,.ಠhighlight-container .token.symbol,.ಠhighlight-container .token.tag{color:#905}.ಠhighlight-container .token.attr-name,.ಠhighlight-container .token.builtin,.ಠhighlight-container .token.char,.ಠhighlight-container .token.inserted,.ಠhighlight-container .token.selector,.ಠhighlight-container .token.string{color:#690}.ಠhighlight-container .language-css .token.string,.ಠhighlight-container .style .token.string,.ಠhighlight-container .token.entity,.ಠhighlight-container .token.operator,.ಠhighlight-container .token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.ಠhighlight-container .token.atrule,.ಠhighlight-container .token.attr-value,.ಠhighlight-container .token.keyword{color:#07a}.ಠhighlight-container .token.class-name,.ಠhighlight-container .token.function{color:#dd4a68}.ಠhighlight-container .token.important,.ಠhighlight-container .token.regex,.ಠhighlight-container .token.variable{color:#e90}.ಠhighlight-container .token.bold,.ಠhighlight-container .token.important{font-weight:700}.ಠhighlight-container .token.italic{font-style:italic}.ಠhighlight-container .token.entity{cursor:help}</style><style data-react-helmet="true" type="text/css">@font-face{font-family:KaTeX_AMS;src:url(file:///asset/plugins/tex/fonts/KaTeX_AMS-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_AMS-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_AMS-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Caligraphic;src:url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Bold.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Bold.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:KaTeX_Caligraphic;src:url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Caligraphic-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Fraktur;src:url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Bold.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Bold.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:KaTeX_Fraktur;src:url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Fraktur-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Main;src:url(file:///asset/plugins/tex/fonts/KaTeX_Main-Bold.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Bold.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:KaTeX_Main;src:url(file:///asset/plugins/tex/fonts/KaTeX_Main-BoldItalic.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-BoldItalic.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-BoldItalic.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:KaTeX_Main;src:url(file:///asset/plugins/tex/fonts/KaTeX_Main-Italic.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Italic.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Italic.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:KaTeX_Main;src:url(file:///asset/plugins/tex/fonts/KaTeX_Main-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Main-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Math;src:url(file:///asset/plugins/tex/fonts/KaTeX_Math-BoldItalic.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Math-BoldItalic.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Math-BoldItalic.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:KaTeX_Math;src:url(file:///asset/plugins/tex/fonts/KaTeX_Math-Italic.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Math-Italic.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Math-Italic.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"KaTeX_SansSerif";src:url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Bold.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Bold.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"KaTeX_SansSerif";src:url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Italic.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Italic.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Italic.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"KaTeX_SansSerif";src:url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_SansSerif-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Script;src:url(file:///asset/plugins/tex/fonts/KaTeX_Script-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Script-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Script-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Size1;src:url(file:///asset/plugins/tex/fonts/KaTeX_Size1-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Size1-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Size1-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Size2;src:url(file:///asset/plugins/tex/fonts/KaTeX_Size2-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Size2-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Size2-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Size3;src:url(file:///asset/plugins/tex/fonts/KaTeX_Size3-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Size3-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Size3-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Size4;src:url(file:///asset/plugins/tex/fonts/KaTeX_Size4-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Size4-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Size4-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:KaTeX_Typewriter;src:url(file:///asset/plugins/tex/fonts/KaTeX_Typewriter-Regular.woff2) format("woff2"),url(file:///asset/plugins/tex/fonts/KaTeX_Typewriter-Regular.woff) format("woff"),url(file:///asset/plugins/tex/fonts/KaTeX_Typewriter-Regular.ttf) format("truetype");font-weight:400;font-style:normal}.ಠtex-container .katex{font:normal 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;text-indent:0;text-rendering:auto}.ಠtex-container .katex *{-ms-high-contrast-adjust:none!important}.ಠtex-container .katex .katex-version:after{content:"0.11.1"}.ಠtex-container .katex .katex-mathml{position:absolute;clip:rect(1px,1px,1px,1px);padding:0;border:0;height:1px;width:1px;overflow:hidden}.ಠtex-container .katex .katex-html>.newline{display:block}.ಠtex-container .katex .base{position:relative;display:inline-block;white-space:nowrap;width:-webkit-min-content;width:-moz-min-content;width:min-content}.ಠtex-container .katex .strut{display:inline-block}.ಠtex-container .katex .textbf{font-weight:700}.ಠtex-container .katex .textit{font-style:italic}.ಠtex-container .katex .textrm{font-family:KaTeX_Main}.ಠtex-container .katex .textsf{font-family:KaTeX_SansSerif}.ಠtex-container .katex .texttt{font-family:KaTeX_Typewriter}.ಠtex-container .katex .mathdefault{font-family:KaTeX_Math;font-style:italic}.ಠtex-container .katex .mathit{font-family:KaTeX_Main;font-style:italic}.ಠtex-container .katex .mathrm{font-style:normal}.ಠtex-container .katex .mathbf{font-family:KaTeX_Main;font-weight:700}.ಠtex-container .katex .boldsymbol{font-family:KaTeX_Math;font-weight:700;font-style:italic}.ಠtex-container .katex .amsrm,.ಠtex-container .katex .mathbb,.ಠtex-container .katex .textbb{font-family:KaTeX_AMS}.ಠtex-container .katex .mathcal{font-family:KaTeX_Caligraphic}.ಠtex-container .katex .mathfrak,.ಠtex-container .katex .textfrak{font-family:KaTeX_Fraktur}.ಠtex-container .katex .mathtt{font-family:KaTeX_Typewriter}.ಠtex-container .katex .mathscr,.ಠtex-container .katex .textscr{font-family:KaTeX_Script}.ಠtex-container .katex .mathsf,.ಠtex-container .katex .textsf{font-family:KaTeX_SansSerif}.ಠtex-container .katex .mathboldsf,.ಠtex-container .katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}.ಠtex-container .katex .mathitsf,.ಠtex-container .katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}.ಠtex-container .katex .mainrm{font-family:KaTeX_Main;font-style:normal}.ಠtex-container .katex .vlist-t{display:inline-table;table-layout:fixed}.ಠtex-container .katex .vlist-r{display:table-row}.ಠtex-container .katex .vlist{display:table-cell;vertical-align:bottom;position:relative}.ಠtex-container .katex .vlist>span{display:block;height:0;position:relative}.ಠtex-container .katex .vlist>span>span{display:inline-block}.ಠtex-container .katex .vlist>span>.pstrut{overflow:hidden;width:0}.ಠtex-container .katex .vlist-t2{margin-right:-2px}.ಠtex-container .katex .vlist-s{display:table-cell;vertical-align:bottom;font-size:1px;width:2px;min-width:2px}.ಠtex-container .katex .msupsub{text-align:left}.ಠtex-container .katex .mfrac>span>span{text-align:center}.ಠtex-container .katex .mfrac .frac-line{display:inline-block;width:100%;border-bottom-style:solid}.ಠtex-container .katex .hdashline,.ಠtex-container .katex .hline,.ಠtex-container .katex .mfrac .frac-line,.ಠtex-container .katex .overline .overline-line,.ಠtex-container .katex .rule,.ಠtex-container .katex .underline .underline-line{min-height:1px}.ಠtex-container .katex .mspace{display:inline-block}.ಠtex-container .katex .clap,.ಠtex-container .katex .llap,.ಠtex-container .katex .rlap{width:0;position:relative}.ಠtex-container .katex .clap>.inner,.ಠtex-container .katex .llap>.inner,.ಠtex-container .katex .rlap>.inner{position:absolute}.ಠtex-container .katex .clap>.fix,.ಠtex-container .katex .llap>.fix,.ಠtex-container .katex .rlap>.fix{display:inline-block}.ಠtex-container .katex .llap>.inner{right:0}.ಠtex-container .katex .clap>.inner,.ಠtex-container .katex .rlap>.inner{left:0}.ಠtex-container .katex .clap>.inner>span{margin-left:-50%;margin-right:50%}.ಠtex-container .katex .rule{display:inline-block;border:0 solid;position:relative}.ಠtex-container .katex .hline,.ಠtex-container .katex .overline .overline-line,.ಠtex-container .katex .underline .underline-line{display:inline-block;width:100%;border-bottom-style:solid}.ಠtex-container .katex .hdashline{display:inline-block;width:100%;border-bottom-style:dashed}.ಠtex-container .katex .sqrt>.root{margin-left:.27777778em;margin-right:-.55555556em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size1,.ಠtex-container .katex .sizing.reset-size1.size1{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size2,.ಠtex-container .katex .sizing.reset-size1.size2{font-size:1.2em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size3,.ಠtex-container .katex .sizing.reset-size1.size3{font-size:1.4em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size4,.ಠtex-container .katex .sizing.reset-size1.size4{font-size:1.6em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size5,.ಠtex-container .katex .sizing.reset-size1.size5{font-size:1.8em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size6,.ಠtex-container .katex .sizing.reset-size1.size6{font-size:2em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size7,.ಠtex-container .katex .sizing.reset-size1.size7{font-size:2.4em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size8,.ಠtex-container .katex .sizing.reset-size1.size8{font-size:2.88em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size9,.ಠtex-container .katex .sizing.reset-size1.size9{font-size:3.456em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size10,.ಠtex-container .katex .sizing.reset-size1.size10{font-size:4.148em}.ಠtex-container .katex .fontsize-ensurer.reset-size1.size11,.ಠtex-container .katex .sizing.reset-size1.size11{font-size:4.976em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size1,.ಠtex-container .katex .sizing.reset-size2.size1{font-size:.83333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size2,.ಠtex-container .katex .sizing.reset-size2.size2{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size3,.ಠtex-container .katex .sizing.reset-size2.size3{font-size:1.16666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size4,.ಠtex-container .katex .sizing.reset-size2.size4{font-size:1.33333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size5,.ಠtex-container .katex .sizing.reset-size2.size5{font-size:1.5em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size6,.ಠtex-container .katex .sizing.reset-size2.size6{font-size:1.66666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size7,.ಠtex-container .katex .sizing.reset-size2.size7{font-size:2em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size8,.ಠtex-container .katex .sizing.reset-size2.size8{font-size:2.4em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size9,.ಠtex-container .katex .sizing.reset-size2.size9{font-size:2.88em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size10,.ಠtex-container .katex .sizing.reset-size2.size10{font-size:3.45666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size2.size11,.ಠtex-container .katex .sizing.reset-size2.size11{font-size:4.14666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size1,.ಠtex-container .katex .sizing.reset-size3.size1{font-size:.71428571em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size2,.ಠtex-container .katex .sizing.reset-size3.size2{font-size:.85714286em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size3,.ಠtex-container .katex .sizing.reset-size3.size3{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size4,.ಠtex-container .katex .sizing.reset-size3.size4{font-size:1.14285714em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size5,.ಠtex-container .katex .sizing.reset-size3.size5{font-size:1.28571429em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size6,.ಠtex-container .katex .sizing.reset-size3.size6{font-size:1.42857143em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size7,.ಠtex-container .katex .sizing.reset-size3.size7{font-size:1.71428571em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size8,.ಠtex-container .katex .sizing.reset-size3.size8{font-size:2.05714286em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size9,.ಠtex-container .katex .sizing.reset-size3.size9{font-size:2.46857143em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size10,.ಠtex-container .katex .sizing.reset-size3.size10{font-size:2.96285714em}.ಠtex-container .katex .fontsize-ensurer.reset-size3.size11,.ಠtex-container .katex .sizing.reset-size3.size11{font-size:3.55428571em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size1,.ಠtex-container .katex .sizing.reset-size4.size1{font-size:.625em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size2,.ಠtex-container .katex .sizing.reset-size4.size2{font-size:.75em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size3,.ಠtex-container .katex .sizing.reset-size4.size3{font-size:.875em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size4,.ಠtex-container .katex .sizing.reset-size4.size4{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size5,.ಠtex-container .katex .sizing.reset-size4.size5{font-size:1.125em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size6,.ಠtex-container .katex .sizing.reset-size4.size6{font-size:1.25em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size7,.ಠtex-container .katex .sizing.reset-size4.size7{font-size:1.5em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size8,.ಠtex-container .katex .sizing.reset-size4.size8{font-size:1.8em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size9,.ಠtex-container .katex .sizing.reset-size4.size9{font-size:2.16em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size10,.ಠtex-container .katex .sizing.reset-size4.size10{font-size:2.5925em}.ಠtex-container .katex .fontsize-ensurer.reset-size4.size11,.ಠtex-container .katex .sizing.reset-size4.size11{font-size:3.11em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size1,.ಠtex-container .katex .sizing.reset-size5.size1{font-size:.55555556em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size2,.ಠtex-container .katex .sizing.reset-size5.size2{font-size:.66666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size3,.ಠtex-container .katex .sizing.reset-size5.size3{font-size:.77777778em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size4,.ಠtex-container .katex .sizing.reset-size5.size4{font-size:.88888889em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size5,.ಠtex-container .katex .sizing.reset-size5.size5{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size6,.ಠtex-container .katex .sizing.reset-size5.size6{font-size:1.11111111em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size7,.ಠtex-container .katex .sizing.reset-size5.size7{font-size:1.33333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size8,.ಠtex-container .katex .sizing.reset-size5.size8{font-size:1.6em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size9,.ಠtex-container .katex .sizing.reset-size5.size9{font-size:1.92em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size10,.ಠtex-container .katex .sizing.reset-size5.size10{font-size:2.30444444em}.ಠtex-container .katex .fontsize-ensurer.reset-size5.size11,.ಠtex-container .katex .sizing.reset-size5.size11{font-size:2.76444444em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size1,.ಠtex-container .katex .sizing.reset-size6.size1{font-size:.5em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size2,.ಠtex-container .katex .sizing.reset-size6.size2{font-size:.6em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size3,.ಠtex-container .katex .sizing.reset-size6.size3{font-size:.7em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size4,.ಠtex-container .katex .sizing.reset-size6.size4{font-size:.8em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size5,.ಠtex-container .katex .sizing.reset-size6.size5{font-size:.9em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size6,.ಠtex-container .katex .sizing.reset-size6.size6{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size7,.ಠtex-container .katex .sizing.reset-size6.size7{font-size:1.2em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size8,.ಠtex-container .katex .sizing.reset-size6.size8{font-size:1.44em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size9,.ಠtex-container .katex .sizing.reset-size6.size9{font-size:1.728em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size10,.ಠtex-container .katex .sizing.reset-size6.size10{font-size:2.074em}.ಠtex-container .katex .fontsize-ensurer.reset-size6.size11,.ಠtex-container .katex .sizing.reset-size6.size11{font-size:2.488em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size1,.ಠtex-container .katex .sizing.reset-size7.size1{font-size:.41666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size2,.ಠtex-container .katex .sizing.reset-size7.size2{font-size:.5em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size3,.ಠtex-container .katex .sizing.reset-size7.size3{font-size:.58333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size4,.ಠtex-container .katex .sizing.reset-size7.size4{font-size:.66666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size5,.ಠtex-container .katex .sizing.reset-size7.size5{font-size:.75em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size6,.ಠtex-container .katex .sizing.reset-size7.size6{font-size:.83333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size7,.ಠtex-container .katex .sizing.reset-size7.size7{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size8,.ಠtex-container .katex .sizing.reset-size7.size8{font-size:1.2em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size9,.ಠtex-container .katex .sizing.reset-size7.size9{font-size:1.44em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size10,.ಠtex-container .katex .sizing.reset-size7.size10{font-size:1.72833333em}.ಠtex-container .katex .fontsize-ensurer.reset-size7.size11,.ಠtex-container .katex .sizing.reset-size7.size11{font-size:2.07333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size1,.ಠtex-container .katex .sizing.reset-size8.size1{font-size:.34722222em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size2,.ಠtex-container .katex .sizing.reset-size8.size2{font-size:.41666667em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size3,.ಠtex-container .katex .sizing.reset-size8.size3{font-size:.48611111em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size4,.ಠtex-container .katex .sizing.reset-size8.size4{font-size:.55555556em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size5,.ಠtex-container .katex .sizing.reset-size8.size5{font-size:.625em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size6,.ಠtex-container .katex .sizing.reset-size8.size6{font-size:.69444444em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size7,.ಠtex-container .katex .sizing.reset-size8.size7{font-size:.83333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size8,.ಠtex-container .katex .sizing.reset-size8.size8{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size9,.ಠtex-container .katex .sizing.reset-size8.size9{font-size:1.2em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size10,.ಠtex-container .katex .sizing.reset-size8.size10{font-size:1.44027778em}.ಠtex-container .katex .fontsize-ensurer.reset-size8.size11,.ಠtex-container .katex .sizing.reset-size8.size11{font-size:1.72777778em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size1,.ಠtex-container .katex .sizing.reset-size9.size1{font-size:.28935185em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size2,.ಠtex-container .katex .sizing.reset-size9.size2{font-size:.34722222em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size3,.ಠtex-container .katex .sizing.reset-size9.size3{font-size:.40509259em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size4,.ಠtex-container .katex .sizing.reset-size9.size4{font-size:.46296296em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size5,.ಠtex-container .katex .sizing.reset-size9.size5{font-size:.52083333em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size6,.ಠtex-container .katex .sizing.reset-size9.size6{font-size:.5787037em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size7,.ಠtex-container .katex .sizing.reset-size9.size7{font-size:.69444444em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size8,.ಠtex-container .katex .sizing.reset-size9.size8{font-size:.83333333em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size9,.ಠtex-container .katex .sizing.reset-size9.size9{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size10,.ಠtex-container .katex .sizing.reset-size9.size10{font-size:1.20023148em}.ಠtex-container .katex .fontsize-ensurer.reset-size9.size11,.ಠtex-container .katex .sizing.reset-size9.size11{font-size:1.43981481em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size1,.ಠtex-container .katex .sizing.reset-size10.size1{font-size:.24108004em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size2,.ಠtex-container .katex .sizing.reset-size10.size2{font-size:.28929605em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size3,.ಠtex-container .katex .sizing.reset-size10.size3{font-size:.33751205em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size4,.ಠtex-container .katex .sizing.reset-size10.size4{font-size:.38572806em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size5,.ಠtex-container .katex .sizing.reset-size10.size5{font-size:.43394407em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size6,.ಠtex-container .katex .sizing.reset-size10.size6{font-size:.48216008em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size7,.ಠtex-container .katex .sizing.reset-size10.size7{font-size:.57859209em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size8,.ಠtex-container .katex .sizing.reset-size10.size8{font-size:.69431051em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size9,.ಠtex-container .katex .sizing.reset-size10.size9{font-size:.83317261em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size10,.ಠtex-container .katex .sizing.reset-size10.size10{font-size:1em}.ಠtex-container .katex .fontsize-ensurer.reset-size10.size11,.ಠtex-container .katex .sizing.reset-size10.size11{font-size:1.19961427em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size1,.ಠtex-container .katex .sizing.reset-size11.size1{font-size:.20096463em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size2,.ಠtex-container .katex .sizing.reset-size11.size2{font-size:.24115756em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size3,.ಠtex-container .katex .sizing.reset-size11.size3{font-size:.28135048em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size4,.ಠtex-container .katex .sizing.reset-size11.size4{font-size:.32154341em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size5,.ಠtex-container .katex .sizing.reset-size11.size5{font-size:.36173633em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size6,.ಠtex-container .katex .sizing.reset-size11.size6{font-size:.40192926em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size7,.ಠtex-container .katex .sizing.reset-size11.size7{font-size:.48231511em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size8,.ಠtex-container .katex .sizing.reset-size11.size8{font-size:.57877814em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size9,.ಠtex-container .katex .sizing.reset-size11.size9{font-size:.69453376em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size10,.ಠtex-container .katex .sizing.reset-size11.size10{font-size:.83360129em}.ಠtex-container .katex .fontsize-ensurer.reset-size11.size11,.ಠtex-container .katex .sizing.reset-size11.size11{font-size:1em}.ಠtex-container .katex .delimsizing.size1{font-family:KaTeX_Size1}.ಠtex-container .katex .delimsizing.size2{font-family:KaTeX_Size2}.ಠtex-container .katex .delimsizing.size3{font-family:KaTeX_Size3}.ಠtex-container .katex .delimsizing.size4{font-family:KaTeX_Size4}.ಠtex-container .katex .delimsizing.mult .delim-size1>span{font-family:KaTeX_Size1}.ಠtex-container .katex .delimsizing.mult .delim-size4>span{font-family:KaTeX_Size4}.ಠtex-container .katex .nulldelimiter{display:inline-block;width:.12em}.ಠtex-container .katex .delimcenter,.ಠtex-container .katex .op-symbol{position:relative}.ಠtex-container .katex .op-symbol.small-op{font-family:KaTeX_Size1}.ಠtex-container .katex .op-symbol.large-op{font-family:KaTeX_Size2}.ಠtex-container .katex .accent>.vlist-t,.ಠtex-container .katex .op-limits>.vlist-t{text-align:center}.ಠtex-container .katex .accent .accent-body{position:relative}.ಠtex-container .katex .accent .accent-body:not(.accent-full){width:0}.ಠtex-container .katex .overlay{display:block}.ಠtex-container .katex .mtable .vertical-separator{display:inline-block;min-width:1px}.ಠtex-container .katex .mtable .arraycolsep{display:inline-block}.ಠtex-container .katex .mtable .col-align-c>.vlist-t{text-align:center}.ಠtex-container .katex .mtable .col-align-l>.vlist-t{text-align:left}.ಠtex-container .katex .mtable .col-align-r>.vlist-t{text-align:right}.ಠtex-container .katex .svg-align{text-align:left}.ಠtex-container .katex svg{display:block;position:absolute;width:100%;height:inherit;fill:currentColor;stroke:currentColor;fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1}.ಠtex-container .katex svg path{stroke:none}.ಠtex-container .katex img{border-style:none;min-width:0;min-height:0;max-width:none;max-height:none}.ಠtex-container .katex .stretchy{width:100%;display:block;position:relative;overflow:hidden}.ಠtex-container .katex .stretchy:after,.ಠtex-container .katex .stretchy:before{content:""}.ಠtex-container .katex .hide-tail{width:100%;position:relative;overflow:hidden}.ಠtex-container .katex .halfarrow-left{position:absolute;left:0;width:50.2%;overflow:hidden}.ಠtex-container .katex .halfarrow-right{position:absolute;right:0;width:50.2%;overflow:hidden}.ಠtex-container .katex .brace-left{position:absolute;left:0;width:25.1%;overflow:hidden}.ಠtex-container .katex .brace-center{position:absolute;left:25%;width:50%;overflow:hidden}.ಠtex-container .katex .brace-right{position:absolute;right:0;width:25.1%;overflow:hidden}.ಠtex-container .katex .x-arrow-pad{padding:0 .5em}.ಠtex-container .katex .mover,.ಠtex-container .katex .munder,.ಠtex-container .katex .x-arrow{text-align:center}.ಠtex-container .katex .boxpad{padding:0 .3em}.ಠtex-container .katex .fbox,.ಠtex-container .katex .fcolorbox{box-sizing:border-box;border:.04em solid}.ಠtex-container .katex .cancel-pad{padding:0 .2em}.ಠtex-container .katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}.ಠtex-container .katex .sout{border-bottom-style:solid;border-bottom-width:.08em}.ಠtex-container .katex-display{display:block;margin:1em 0;text-align:center}.ಠtex-container .katex-display>.katex{display:block;text-align:center;white-space:nowrap}.ಠtex-container .katex-display>.katex>.katex-html{display:block;position:relative}.ಠtex-container .katex-display>.katex>.katex-html>.tag{position:absolute;right:0}.ಠtex-container .katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}.ಠtex-container .katex-display.fleqn>.katex{text-align:left}.ಠtex-container .mathjax-editor-input{left:-999999px}.ಠtex-container.ಠtex-block{text-align:center}.ಠtex-container.ಠtex-inline{margin:0 5px}.ಠtex-modal .mathjax-editor-input{left:-999999px!important}.ಠtex-modal .mathjax-editor-container{text-align:center;font-size:24px;padding:60px 0}.ಠtex-modal .ಠtex-toolbar{width:100%;padding:1px 10px;position:relative;z-index:2;background-color:#f6f5ee;border-bottom:1px solid #ccc;color:#000}.ಠtex-modal .ಠtex-toolbar .ಠtex-button{padding:8px 6px;height:97px;font-size:12px;display:inline-block;border:1px solid transparent;border-radius:3px;cursor:default;position:relative;z-index:3;vertical-align:top;margin-right:1px}.ಠtex-modal .ಠtex-toolbar .ಠtex-button .ಠtex-icon{width:32px;height:32px;margin:2px auto;background:url(file:///asset/plugins/tex/images/btn.png) 0 0 no-repeat}.ಠtex-modal .ಠtex-toolbar .ಠtex-button .ಠtex-label{color:#666;text-align:center;display:block;font-size:12px;line-height:20px}.ಠtex-modal .ಠtex-toolbar .ಠtex-button .ಠtex-label .ಠtex-sign{border:4px solid transparent;border-top-color:#2d2d2d;width:0;height:0;display:inline-block;margin:8px auto;vertical-align:top}.ಠtex-modal .ಠtex-toolbar .ಠtex-yushe .ಠtex-icon{width:40px}.ಠtex-modal .ಠtex-toolbar .ಠtex-area{height:97px;cursor:default;opacity:.5;z-index:4;border:1px solid #e0dfd5;border-radius:4px;background:#fff;margin:8px 10px}.ಠtex-modal .ಠtex-toolbar .ಠtex-area,.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container{display:inline-block;position:relative;vertical-align:top}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container{width:293px;height:70px;margin:5px;border-right:0;top:0;left:0;overflow:hidden}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container .ಠtex-panel{position:absolute;top:0;left:0;line-height:0;background:#fff;transition:top .5s linear}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container .ಠtex-panel .ಠtex-item{width:26px;height:26px;position:absolute;top:0;left:0}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container .ಠtex-panel .ಠtex-item .ಠtex-inner{width:34px;height:34px;border:1px solid #fff;position:absolute;top:-4px;left:-4px;transition:all .1s linear;transform:scale(.76)}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container .ಠtex-panel .ಠtex-item .ಠtex-inner:hover{transform:scale(1)}.ಠtex-modal .ಠtex-toolbar .ಠtex-area .ಠtex-container .ಠtex-panel .ಠtex-item .ಠtex-inner .ಠtex-img{width:32px;height:32px;border:1px solid grey;transition:all .1s linear}</style></head><body><div id="main"><div class="window-container"><img src="cover.jpg" style="position:absolute;visibility:hidden"/><div><div class="Loading__loading___1m_fZ"><div class="Loading__bar___21yOt" style="background:#21ba45;width:0%;display:none"><div class="Loading__peg___3Y_28"></div></div></div><div class="Loading__spinner___11Pm4"><div class="Loading__icon___3OOyu" style="display:none;border-color:#21ba45"></div></div></div><div class="window-body"><div class="sidebar"><div class="sidebar-header"><a href="../../.." class="title">AddonWiki</a><div class="search-form"><div class="ui small fluid icon input"><input type="text" placeholder="请输入搜索关键词..."/><i class="icon search"></i></div></div></div><div class="sidebar-body"><div class="catalog-body"><ul><li class="open"><div class="wholerow"></div><i class="icon"></i><a href="../../../home.html" class="text">主页</a></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../../Addon入门教程/index.html" class="text">Addonr入门教程</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/0.Addon教程前言/index.html" class="text">0.Addon入门教程前言</a></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/1.AddOns基础知识/index.html" class="text">1.AddOns基础知识</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/1.AddOns基础知识/1-1.AddOns附加包的定义与发展史/index.html" class="text">1-1.AddOns附加包的定义与发展史</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/1.AddOns基础知识/1-2.JSON基础认识/index.html" class="text">1-2.JSON基础认识</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/1.AddOns基础知识/1-3.工具准备/index.html" class="text">1-3.工具准备</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/2.AddOns组成结构/index.html" class="text">2.AddOns组成结构</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/2.AddOns组成结构/2-1.第一个包/index.html" class="text">2-1.第一个包!</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/2.AddOns组成结构/2-2.导入与测试/index.html" class="text">2-2.导入与测试</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/3.自定义游戏内容/index.html" class="text">3.自定义游戏内容</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-1.自定义物品/index.html" class="text">3-1.自定义物品</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-2.自定义方块/index.html" class="text">3-2.自定义方块</a></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/index.html" class="text">3-3.自定义配方</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/3-3-1.自定义合成/index.html" class="text">3-3-1.自定义合成</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/3-3-2.自定义熔炼/index.html" class="text">3-3-2.自定义熔炼</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/3-3-3.自定义切石机/index.html" class="text">3-3-3.自定义切石机</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/3-3-4.自定义酿造台/index.html" class="text">3-3-4.自定义酿造台</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-3.自定义配方/3-3-5.自定义制图台/index.html" class="text">3-3-5.自定义制图台</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-4.自定义生成结构/index.html" class="text">3-4.自定义生成结构</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-4.自定义生成结构/3-4-1.自定义生物群系/index.html" class="text">3-4-1.自定义生物群系</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-4.自定义生成结构/3-4-2.自定义树特征/index.html" class="text">3-4-2.自定义树特征</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-4.自定义生成结构/3-4-3.自定义矿石特征/index.html" class="text">3-4-3.自定义矿石特征</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-4.自定义生成结构/3-4-4.自定义结构特征/index.html" class="text">3-4-4.自定义结构特征</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/index.html" class="text">3-5.自定义实体</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-1.组成结构/index.html" class="text">3-5-1.组成结构</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-2.行为包部分-实体行为必选/index.html" class="text">3-5-2.行为包部分-实体行为(必选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-3.行为包部分-实体生成可选/index.html" class="text">3-5-3.行为包部分-实体生成(可选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-4.行为包部分-实体掉落物可选/index.html" class="text">3-5-4.行为包部分-实体掉落物(可选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-5.资源包部分-实体资源包定义必选/index.html" class="text">3-5-5.资源包部分-实体资源包定义(必选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-6.资源包部分-材料可选/index.html" class="text">3-5-6.资源包部分-材料(可选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-7.资源包部分-模型可选/index.html" class="text">3-5-7.资源包部分-模型(可选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-8.资源包部分-贴图可选/index.html" class="text">3-5-8.资源包部分-贴图(可选)</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-9.动画/index.html" class="text">3-5-9.动画</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-10.动画控制器/index.html" class="text">3-5-10.动画控制器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-5.自定义实体/3-5-11.资源包部分-渲染控制器可选/index.html" class="text">3-5-11.资源包部分-渲染控制器(可选)</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-6.自定义颗粒效果/index.html" class="text">3-6.自定义颗粒效果</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/3.自定义游戏内容/3-7.自定义音乐与音效/index.html" class="text">3-7.自定义音乐与音效</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../../Addon入门教程/4.后期/index.html" class="text">4.后期</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/4.后期/4-1.Addon加密/index.html" class="text">4-1.Addon加密</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../Addon入门教程/4.后期/4-2.Addon发布/index.html" class="text">4-2.Addon发布</a></li></ul></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../../基础概念/index.html" class="text">基础概念</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../基础概念/Lang语言/index.html" class="text">Lang语言</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../基础概念/Function命令函数/index.html" class="text">Function命令函数</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../基础概念/Structure结构/index.html" class="text">Structure结构</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../基础概念/组件、组件组、事件/index.html" class="text">组件、组件组、事件</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../基础概念/指令/index.html" class="text">指令</a></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../../名词解释/index.html" class="text">名词解释</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/标识符/index.html" class="text">标识符</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/命名空间/index.html" class="text">命名空间</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/优先权/index.html" class="text">优先权</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/Nbt/index.html" class="text">Nbt</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/运行标识符/index.html" class="text">运行标识符</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/value/index.html" class="text">value</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/范围值/index.html" class="text">范围值</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/概率/index.html" class="text">概率</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../名词解释/浮点数/index.html" class="text">浮点数</a></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../../专辑篇/index.html" class="text">专辑篇</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/交易列表/index.html" class="text">交易列表</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/战利品表/index.html" class="text">战利品表</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/滤器/index.html" class="text">滤器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/实体生成/index.html" class="text">实体生成</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/触发器/index.html" class="text">触发器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/事件/index.html" class="text">事件</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/Molang/index.html" class="text">MoLang</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/动画与动画控制器/index.html" class="text">动画与动画控制器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/渲染控制器/index.html" class="text">渲染控制器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/材料/index.html" class="text">材料</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/着色器（光影）/index.html" class="text">着色器（光影）</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../专辑篇/JSON用户界面UI/index.html" class="text">JSON用户界面UI</a></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon"></i><a href="../../../脚本引擎/index.html" class="text">脚本引擎</a></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../../技巧/index.html" class="text">技巧</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../../技巧/模型、贴图、动画/index.html" class="text">模型、贴图、动画</a></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../../index.html" class="text">API文档</a><ul><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../版本/index.html" class="text">版本</a><ul><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../../版本/1.16.200.2/index.html" class="text">1.16.200.2</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/附加包/index.html" class="text">附加包</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/动画/index.html" class="text">动画</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/生物群系/index.html" class="text">生物群系</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/方块/index.html" class="text">方块</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/实体/index.html" class="text">实体</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/实体事件/index.html" class="text">实体事件</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/特征/index.html" class="text">特征</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/物品/index.html" class="text">物品</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/Molang/index.html" class="text">Molang</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/粒子效果/index.html" class="text">粒子效果</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/配方/index.html" class="text">配方</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/架构/index.html" class="text">架构</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/脚本/index.html" class="text">脚本</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/纹理集/index.html" class="text">纹理集</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../../版本/1.16.200.2/UI/index.html" class="text">UI</a></li></ul></li></ul></li><li class="open"><div class="wholerow"></div><i class="icon caret down"></i><a href="../index.html" class="text">其它文档</a><ul><li class=""><div class="wholerow"></div><i class="icon caret right"></i><a href="../脚本/index.html" class="text">脚本</a><ul><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../脚本/脚本引擎系统/index.html" class="text">脚本引擎系统</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../脚本/API对象/index.html" class="text">API对象</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../脚本/组件/index.html" class="text">组件</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../脚本/事件/index.html" class="text">事件</a></li></ul></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../H5UI/index.html" class="text">H5UI</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../MoLang/index.html" class="text">MoLang</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../着色器/index.html" class="text">着色器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../材料/index.html" class="text">材料</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../JSON用户界面UI/index.html" class="text">JSON用户界面UI</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../生物群系/index.html" class="text">生物群系</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../粒子效果/index.html" class="text">粒子效果</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../实体事件/index.html" class="text">实体事件</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../战利品表/index.html" class="text">战利品表</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../交易列表/index.html" class="text">交易列表</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../实体生成/index.html" class="text">实体生成</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../滤器/index.html" class="text">滤器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../触发器/index.html" class="text">触发器</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../方块/index.html" class="text">方块</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../物品栏子分类/index.html" class="text">物品栏子分类</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../运行标识符/index.html" class="text">运行标识符</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="index.html" class="text">声音</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../颜色字体/index.html" class="text">颜色字体</a></li><li class=""><div class="wholerow"></div><i class="icon"></i><a href="../特殊字符/index.html" class="text">特殊字符</a></li></ul></li></ul></li></ul></div></div><div class="sidebar-copyright">本文档使用 <a href="https://www.kancloud.cn" target="_blank">看云</a> 构建</div></div><div class="workspace"><div class="article"><div class="article-head"><div class="left tools"><a class="item icon"><i class="icon align justify"></i></a></div><h1>声音</h1><div class="right tools"><div role="listbox" aria-expanded="false" class="ui top right pointing dropdown item" tabindex="0"><div class="text" role="alert" aria-live="polite"></div><i aria-hidden="true" class="share alternate icon"></i><div class="menu transition"><div role="option" class="item"><i aria-hidden="true" class="linkify icon"></i><span class="text">复制链接</span></div><div role="option" class="item"><i aria-hidden="true" class="qq icon"></i><span class="text">腾讯QQ</span></div><div role="option" class="item"><i aria-hidden="true" class="weibo icon"></i><span class="text">新浪微博</span></div><div class="header"><p><i class="icon wechat"></i><span class="text">微信扫一扫</span></p><img src="https://bshare.optimix.cn/barCode?site=weixin&amp;url=file%3A%2F%2F..%2F..%2F..%2Fcontent%2FApiDoc%2F%25E5%2585%25B6%25E5%25AE%2583%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25A3%25B0%25E9%259F%25B3%2Findex.md"/></div></div></div></div></div><div class="article-body kancloud-markdown-body"><h1><a id="_0"></a>声音</h1>
+<p>最后更新适配版本：1.16.200.2正式版</p>
+<hr/>
+<h1><a id="_3"></a>周围</h1>
+<p><code>ambient.weather.lightning.impact</code></p>
+<p><code>ambient.weather.rain</code></p>
+<p><code>ambient.weather.thunder</code></p>
+<h1><a id="_12"></a>盔甲</h1>
+<p><code>armor.equip_chain</code></p>
+<p><code>armor.equip_diamond</code></p>
+<p><code>armor.equip_generic</code></p>
+<p><code>armor.equip_gold</code></p>
+<p><code>armor.equip_iron</code></p>
+<p><code>armor.equip_leather</code></p>
+<h1><a id="_26"></a>信标</h1>
+<p><code>beacon.activate</code></p>
+<p><code>beacon.ambient</code></p>
+<p><code>beacon.deactivate</code></p>
+<p><code>beacon.power</code></p>
+<h1><a id="_36"></a>块</h1>
+<p><code>block.bamboo.break</code></p>
+<p><code>block.bamboo.fall</code></p>
+<p><code>block.bamboo.hit</code></p>
+<p><code>block.bamboo.place</code></p>
+<p><code>block.bamboo.step</code></p>
+<p><code>block.bamboo_sapling.break</code></p>
+<p><code>block.bamboo_sapling.place</code></p>
+<p><code>block.barrel.close</code></p>
+<p><code>block.barrel.open</code></p>
+<p><code>block.bell.hit</code></p>
+<p><code>block.blastfurnace.fire_crackle</code></p>
+<p><code>block.campfire.crackle</code></p>
+<p><code>block.cartography_table.use</code></p>
+<p><code>block.chorusflower.death</code></p>
+<p><code>block.chorusflower.grow</code></p>
+<p><code>block.composter.empty</code></p>
+<p><code>block.composter.fill</code></p>
+<p><code>block.composter.fill_success</code></p>
+<p><code>block.composter.ready</code></p>
+<p><code>block.end_portal.spawn</code></p>
+<p><code>block.end_portal_frame.fill</code></p>
+<p><code>block.false_permissions</code></p>
+<p><code>block.furnace.lit</code></p>
+<p><code>block.grindstone.use</code></p>
+<p><code>block.itemframe.add_item</code></p>
+<p><code>block.itemframe.break</code></p>
+<p><code>block.itemframe.place</code></p>
+<p><code>block.itemframe.remove_item</code></p>
+<p><code>block.itemframe.rotate_item</code></p>
+<p><code>block.lantern.break</code></p>
+<p><code>block.lantern.fall</code></p>
+<p><code>block.lantern.hit</code></p>
+<p><code>block.lantern.place</code></p>
+<p><code>block.lantern.step</code></p>
+<p><code>block.loom.use</code></p>
+<p><code>block.scaffolding.break</code></p>
+<p><code>block.scaffolding.climb</code></p>
+<p><code>block.scaffolding.fall</code></p>
+<p><code>block.scaffolding.hit</code></p>
+<p><code>block.scaffolding.place</code></p>
+<p><code>block.scaffolding.step</code></p>
+<p><code>block.smoker.smoke</code></p>
+<p><code>block.stonecutter.use</code></p>
+<p><code>block.sweet_berry_bush.break</code></p>
+<p><code>block.sweet_berry_bush.hurt</code></p>
+<p><code>block.sweet_berry_bush.pick</code></p>
+<p><code>block.sweet_berry_bush.place</code></p>
+<p><code>block.turtle_egg.break</code></p>
+<p><code>block.turtle_egg.crack</code></p>
+<p><code>block.turtle_egg.drop</code></p>
+<h1><a id="_138"></a>瓶子</h1>
+<p><code>bottle.dragonbreath</code></p>
+<h1><a id="_142"></a>泡沫</h1>
+<p><code>bubble.down</code></p>
+<p><code>bubble.downinside</code></p>
+<p><code>bubble.pop</code></p>
+<p><code>bubble.up</code></p>
+<p><code>bubble.upinside</code></p>
+<h1><a id="_154"></a>桶</h1>
+<p><code>bucket.empty_fish</code></p>
+<p><code>bucket.empty_lava</code></p>
+<p><code>bucket.empty_water</code></p>
+<p><code>bucket.fill_fish</code></p>
+<p><code>bucket.fill_lava</code></p>
+<p><code>bucket.fill_water</code></p>
+<h1><a id="_168"></a>相机</h1>
+<p><code>camera.take_picture</code></p>
+<h1><a id="_172"></a>釜</h1>
+<p><code>cauldron.adddye</code></p>
+<p><code>cauldron.cleanarmor</code></p>
+<p><code>cauldron.cleanbanner</code></p>
+<p><code>cauldron.dyearmor</code></p>
+<p><code>cauldron.explode</code></p>
+<p><code>cauldron.fillpotion</code></p>
+<p><code>cauldron.fillwater</code></p>
+<p><code>cauldron.takepotion</code></p>
+<p><code>cauldron.takewater</code></p>
+<h1><a id="_192"></a>导管</h1>
+<p><code>conduit.activate</code></p>
+<p><code>conduit.ambient</code></p>
+<p><code>conduit.attack</code></p>
+<p><code>conduit.deactivate</code></p>
+<p><code>conduit.short</code></p>
+<h1><a id="_204"></a>弩</h1>
+<p><code>crossbow.loading.end</code></p>
+<p><code>crossbow.loading.middle</code></p>
+<p><code>crossbow.loading.start</code></p>
+<p><code>crossbow.quick_charge.end</code></p>
+<p><code>crossbow.quick_charge.middle</code></p>
+<p><code>crossbow.quick_charge.start</code></p>
+<p><code>crossbow.shoot</code></p>
+<h1><a id="_220"></a>损伤</h1>
+<p><code>damage.fallbig</code></p>
+<p><code>damage.fallsmall</code></p>
+<h1><a id="_226"></a>挖</h1>
+<p><code>dig.cloth</code></p>
+<p><code>dig.grass</code></p>
+<p><code>dig.gravel</code></p>
+<p><code>dig.sand</code></p>
+<p><code>dig.snow</code></p>
+<p><code>dig.stone</code></p>
+<p><code>dig.wood</code></p>
+<h1><a id="_242"></a>鞘翅</h1>
+<p><code>elytra.loop</code></p>
+<h1><a id="_246"></a>实体</h1>
+<p><code>entity.zombie.converted_to_drowned</code></p>
+<h1><a id="_250"></a>秋季</h1>
+<p><code>fall.cloth</code></p>
+<p><code>fall.egg</code></p>
+<p><code>fall.grass</code></p>
+<p><code>fall.gravel</code></p>
+<p><code>fall.ladder</code></p>
+<p><code>fall.sand</code></p>
+<p><code>fall.slime</code></p>
+<p><code>fall.snow</code></p>
+<p><code>fall.stone</code></p>
+<p><code>fall.wood</code></p>
+<h1><a id="_272"></a>火</h1>
+<p><code>fire.fire</code></p>
+<p><code>fire.ignite</code></p>
+<h1><a id="_278"></a>焰火</h1>
+<p><code>firework.blast</code></p>
+<p><code>firework.large_blast</code></p>
+<p><code>firework.launch</code></p>
+<p><code>firework.shoot</code></p>
+<p><code>firework.twinkle</code></p>
+<h1><a id="_290"></a>游戏</h1>
+<p><code>game.player.attack.nodamage</code></p>
+<p><code>game.player.attack.strong</code></p>
+<p><code>game.player.die</code></p>
+<p><code>game.player.hurt</code></p>
+<h1><a id="_300"></a>击中</h1>
+<p><code>hit.cloth</code></p>
+<p><code>hit.grass</code></p>
+<p><code>hit.gravel</code></p>
+<p><code>hit.ladder</code></p>
+<p><code>hit.sand</code></p>
+<p><code>hit.slime</code></p>
+<p><code>hit.snow</code></p>
+<p><code>hit.stone</code></p>
+<p><code>hit.wood</code></p>
+<h1><a id="_320"></a>项目</h1>
+<p><code>item.book.page_turn</code></p>
+<p><code>item.book.put</code></p>
+<p><code>item.shield.block</code></p>
+<p><code>item.trident.hit</code></p>
+<p><code>item.trident.hit_ground</code></p>
+<p><code>item.trident.return</code></p>
+<p><code>item.trident.riptide_1</code></p>
+<p><code>item.trident.riptide_2</code></p>
+<p><code>item.trident.riptide_3</code></p>
+<p><code>item.trident.throw</code></p>
+<p><code>item.trident.thunder</code></p>
+<h1><a id="_344"></a>跳</h1>
+<p><code>jump.cloth</code></p>
+<p><code>jump.grass</code></p>
+<p><code>jump.gravel</code></p>
+<p><code>jump.sand</code></p>
+<p><code>jump.slime</code></p>
+<p><code>jump.snow</code></p>
+<p><code>jump.stone</code></p>
+<p><code>jump.wood</code></p>
+<h1><a id="_362"></a>土地</h1>
+<p><code>land.cloth</code></p>
+<p><code>land.grass</code></p>
+<p><code>land.gravel</code></p>
+<p><code>land.sand</code></p>
+<p><code>land.slime</code></p>
+<p><code>land.snow</code></p>
+<p><code>land.stone</code></p>
+<p><code>land.wood</code></p>
+<h1><a id="_380"></a>皮带结</h1>
+<p><code>leashknot.break</code></p>
+<p><code>leashknot.place</code></p>
+<h1><a id="_386"></a>液体</h1>
+<p><code>liquid.lava</code></p>
+<p><code>liquid.lavapop</code></p>
+<p><code>liquid.water</code></p>
+<h1><a id="_394"></a>矿车</h1>
+<p><code>minecart.base</code></p>
+<p><code>minecart.inside</code></p>
+<h1><a id="_400"></a>暴民</h1>
+<h2><a id="_402"></a>代理人</h2>
+<p><code>mob.agent.spawn</code></p>
+<h2><a id="Armor_stand_406"></a>Armor_stand</h2>
+<p><code>mob.armor_stand.break</code></p>
+<p><code>mob.armor_stand.hit</code></p>
+<p><code>mob.armor_stand.land</code></p>
+<p><code>mob.armor_stand.place</code></p>
+<h2><a id="_416"></a>蝙蝠</h2>
+<p><code>mob.bat.death</code></p>
+<p><code>mob.bat.hurt</code></p>
+<p><code>mob.bat.idle</code></p>
+<p><code>mob.bat.takeoff</code></p>
+<h2><a id="_426"></a>火焰</h2>
+<p><code>mob.blaze.breathe</code></p>
+<p><code>mob.blaze.death</code></p>
+<p><code>mob.blaze.hit</code></p>
+<p><code>mob.blaze.shoot</code></p>
+<h2><a id="_436"></a>猫</h2>
+<p><code>mob.cat.beg</code></p>
+<p><code>mob.cat.eat</code></p>
+<p><code>mob.cat.hiss</code></p>
+<p><code>mob.cat.hit</code></p>
+<p><code>mob.cat.meow</code></p>
+<p><code>mob.cat.purr</code></p>
+<p><code>mob.cat.purreow</code></p>
+<p><code>mob.cat.straymeow</code></p>
+<h2><a id="_454"></a>鸡</h2>
+<p><code>mob.chicken.hurt</code></p>
+<p><code>mob.chicken.plop</code></p>
+<p><code>mob.chicken.say</code></p>
+<p><code>mob.chicken.step</code></p>
+<h2><a id="_464"></a>牛</h2>
+<p><code>mob.cow.hurt</code></p>
+<p><code>mob.cow.milk</code></p>
+<p><code>mob.cow.say</code></p>
+<p><code>mob.cow.step</code></p>
+<h2><a id="_474"></a>爬行者</h2>
+<p><code>mob.creeper.death</code></p>
+<p><code>mob.creeper.say</code></p>
+<h2><a id="_480"></a>海豚</h2>
+<p><code>mob.dolphin.attack</code></p>
+<p><code>mob.dolphin.blowhole</code></p>
+<p><code>mob.dolphin.death</code></p>
+<p><code>mob.dolphin.eat</code></p>
+<p><code>mob.dolphin.hurt</code></p>
+<p><code>mob.dolphin.idle</code></p>
+<p><code>mob.dolphin.idle_water</code></p>
+<p><code>mob.dolphin.jump</code></p>
+<p><code>mob.dolphin.play</code></p>
+<p><code>mob.dolphin.splash</code></p>
+<p><code>mob.dolphin.swim</code></p>
+<h2><a id="_504"></a>淹死</h2>
+<p><code>mob.drowned.death</code></p>
+<p><code>mob.drowned.death_water</code></p>
+<p><code>mob.drowned.hurt</code></p>
+<p><code>mob.drowned.hurt_water</code></p>
+<p><code>mob.drowned.say</code></p>
+<p><code>mob.drowned.say_water</code></p>
+<p><code>mob.drowned.shoot</code></p>
+<p><code>mob.drowned.step</code></p>
+<p><code>mob.drowned.swim</code></p>
+<h2><a id="_524"></a>守卫者</h2>
+<p><code>mob.elderguardian.curse</code></p>
+<p><code>mob.elderguardian.death</code></p>
+<p><code>mob.elderguardian.hit</code></p>
+<p><code>mob.elderguardian.idle</code></p>
+<h2><a id="enderdragon_534"></a>enderdragon</h2>
+<p><code>mob.enderdragon.death</code></p>
+<p><code>mob.enderdragon.flap</code></p>
+<p><code>mob.enderdragon.growl</code></p>
+<p><code>mob.enderdragon.hit</code></p>
+<h2><a id="_544"></a>恩德门</h2>
+<p><code>mob.endermen.death</code></p>
+<p><code>mob.endermen.hit</code></p>
+<p><code>mob.endermen.idle</code></p>
+<p><code>mob.endermen.portal</code></p>
+<p><code>mob.endermen.scream</code></p>
+<p><code>mob.endermen.stare</code></p>
+<h2><a id="_558"></a>末影螨</h2>
+<p><code>mob.endermite.hit</code></p>
+<p><code>mob.endermite.kill</code></p>
+<p><code>mob.endermite.say</code></p>
+<p><code>mob.endermite.step</code></p>
+<h2><a id="evocation_fangs_568"></a>evocation_fangs</h2>
+<p><code>mob.evocation_fangs.attack</code></p>
+<h2><a id="evocation_illager_572"></a>evocation_illager</h2>
+<p><code>mob.evocation_illager.ambient</code></p>
+<p><code>mob.evocation_illager.cast_spell</code></p>
+<p><code>mob.evocation_illager.celebrate</code></p>
+<p><code>mob.evocation_illager.death</code></p>
+<p><code>mob.evocation_illager.hurt</code></p>
+<p><code>mob.evocation_illager.prepare_attack</code></p>
+<p><code>mob.evocation_illager.prepare_summon</code></p>
+<p><code>mob.evocation_illager.prepare_wololo</code></p>
+<h2><a id="_590"></a>鱼</h2>
+<p><code>mob.fish.flop</code></p>
+<p><code>mob.fish.hurt</code></p>
+<p><code>mob.fish.step</code></p>
+<h2><a id="_598"></a>狐狸</h2>
+<p><code>mob.fox.aggro</code></p>
+<p><code>mob.fox.ambient</code></p>
+<p><code>mob.fox.bite</code></p>
+<p><code>mob.fox.death</code></p>
+<p><code>mob.fox.eat</code></p>
+<p><code>mob.fox.hurt</code></p>
+<p><code>mob.fox.screech</code></p>
+<p><code>mob.fox.sleep</code></p>
+<p><code>mob.fox.sniff</code></p>
+<p><code>mob.fox.spit</code></p>
+<h2><a id="_620"></a>恐怖</h2>
+<p><code>mob.ghast.affectionate_scream</code></p>
+<p><code>mob.ghast.charge</code></p>
+<p><code>mob.ghast.death</code></p>
+<p><code>mob.ghast.fireball</code></p>
+<p><code>mob.ghast.moan</code></p>
+<p><code>mob.ghast.scream</code></p>
+<h2><a id="_634"></a>监护人</h2>
+<p><code>mob.guardian.ambient</code></p>
+<p><code>mob.guardian.attack_loop</code></p>
+<p><code>mob.guardian.death</code></p>
+<p><code>mob.guardian.flop</code></p>
+<p><code>mob.guardian.hit</code></p>
+<p><code>mob.guardian.land_death</code></p>
+<p><code>mob.guardian.land_hit</code></p>
+<p><code>mob.guardian.land_idle</code></p>
+<h2><a id="_652"></a>马</h2>
+<p><code>mob.horse.angry</code></p>
+<p><code>mob.horse.armor</code></p>
+<p><code>mob.horse.breathe</code></p>
+<p><code>mob.horse.death</code></p>
+<p><code>mob.horse.donkey.angry</code></p>
+<p><code>mob.horse.donkey.death</code></p>
+<p><code>mob.horse.donkey.hit</code></p>
+<p><code>mob.horse.donkey.idle</code></p>
+<p><code>mob.horse.eat</code></p>
+<p><code>mob.horse.gallop</code></p>
+<p><code>mob.horse.hit</code></p>
+<p><code>mob.horse.idle</code></p>
+<p><code>mob.horse.jump</code></p>
+<p><code>mob.horse.land</code></p>
+<p><code>mob.horse.leather</code></p>
+<p><code>mob.horse.skeleton.death</code></p>
+<p><code>mob.horse.skeleton.hit</code></p>
+<p><code>mob.horse.skeleton.idle</code></p>
+<p><code>mob.horse.soft</code></p>
+<p><code>mob.horse.wood</code></p>
+<p><code>mob.horse.zombie.death</code></p>
+<p><code>mob.horse.zombie.hit</code></p>
+<p><code>mob.horse.zombie.idle</code></p>
+<h2><a id="_700"></a>稻壳</h2>
+<p><code>mob.husk.ambient</code></p>
+<p><code>mob.husk.death</code></p>
+<p><code>mob.husk.hurt</code></p>
+<p><code>mob.husk.step</code></p>
+<h2><a id="_710"></a>铁巨人</h2>
+<p><code>mob.irongolem.death</code></p>
+<p><code>mob.irongolem.hit</code></p>
+<p><code>mob.irongolem.throw</code></p>
+<p><code>mob.irongolem.walk</code></p>
+<h2><a id="_720"></a>骆驼</h2>
+<p><code>mob.llama.angry</code></p>
+<p><code>mob.llama.death</code></p>
+<p><code>mob.llama.eat</code></p>
+<p><code>mob.llama.hurt</code></p>
+<p><code>mob.llama.idle</code></p>
+<p><code>mob.llama.spit</code></p>
+<p><code>mob.llama.step</code></p>
+<p><code>mob.llama.swag</code></p>
+<h2><a id="_738"></a>磁宏</h2>
+<p><code>mob.magmacube.big</code></p>
+<p><code>mob.magmacube.jump</code></p>
+<p><code>mob.magmacube.small</code></p>
+<h2><a id="_746"></a>蘑菇屋</h2>
+<p><code>mob.mooshroom.convert</code></p>
+<p><code>mob.mooshroom.eat</code></p>
+<p><code>mob.mooshroom.suspicious_milk</code></p>
+<h2><a id="_754"></a>豹猫</h2>
+<p><code>mob.ocelot.death</code></p>
+<p><code>mob.ocelot.idle</code></p>
+<h2><a id="_760"></a>熊猫</h2>
+<p><code>mob.panda.bite</code></p>
+<p><code>mob.panda.cant_breed</code></p>
+<p><code>mob.panda.death</code></p>
+<p><code>mob.panda.eat</code></p>
+<p><code>mob.panda.hurt</code></p>
+<p><code>mob.panda.idle</code></p>
+<p><code>mob.panda.idle.aggressive</code></p>
+<p><code>mob.panda.idle.worried</code></p>
+<p><code>mob.panda.presneeze</code></p>
+<p><code>mob.panda.sneeze</code></p>
+<p><code>mob.panda.step</code></p>
+<h2><a id="_784"></a>熊猫宝宝</h2>
+<p><code>mob.panda_baby.idle</code></p>
+<h2><a id="_788"></a>鹦鹉</h2>
+<p><code>mob.parrot.death</code></p>
+<p><code>mob.parrot.eat</code></p>
+<p><code>mob.parrot.fly</code></p>
+<p><code>mob.parrot.hurt</code></p>
+<p><code>mob.parrot.idle</code></p>
+<p><code>mob.parrot.step</code></p>
+<h2><a id="_802"></a>幻影</h2>
+<p><code>mob.phantom.bite</code></p>
+<p><code>mob.phantom.death</code></p>
+<p><code>mob.phantom.hurt</code></p>
+<p><code>mob.phantom.idle</code></p>
+<p><code>mob.phantom.swoop</code></p>
+<h2><a id="_814"></a>猪</h2>
+<p><code>mob.pig.boost</code></p>
+<p><code>mob.pig.death</code></p>
+<p><code>mob.pig.say</code></p>
+<p><code>mob.pig.step</code></p>
+<h2><a id="_824"></a>乱兵</h2>
+<p><code>mob.pillager.celebrate</code></p>
+<p><code>mob.pillager.death</code></p>
+<p><code>mob.pillager.hurt</code></p>
+<p><code>mob.pillager.idle</code></p>
+<h2><a id="_834"></a>北极熊</h2>
+<p><code>mob.polarbear.death</code></p>
+<p><code>mob.polarbear.hurt</code></p>
+<p><code>mob.polarbear.idle</code></p>
+<p><code>mob.polarbear.step</code></p>
+<p><code>mob.polarbear.warning</code></p>
+<h2><a id="polarbear_baby_846"></a>polarbear_baby</h2>
+<p><code>mob.polarbear_baby.idle</code></p>
+<h2><a id="_850"></a>兔子</h2>
+<p><code>mob.rabbit.death</code></p>
+<p><code>mob.rabbit.hop</code></p>
+<p><code>mob.rabbit.hurt</code></p>
+<p><code>mob.rabbit.idle</code></p>
+<h2><a id="_860"></a>掠夺者</h2>
+<p><code>mob.ravager.ambient</code></p>
+<p><code>mob.ravager.bite</code></p>
+<p><code>mob.ravager.celebrate</code></p>
+<p><code>mob.ravager.death</code></p>
+<p><code>mob.ravager.hurt</code></p>
+<p><code>mob.ravager.roar</code></p>
+<p><code>mob.ravager.step</code></p>
+<p><code>mob.ravager.stun</code></p>
+<h2><a id="_878"></a>羊</h2>
+<p><code>mob.sheep.say</code></p>
+<p><code>mob.sheep.shear</code></p>
+<p><code>mob.sheep.step</code></p>
+<h2><a id="_886"></a>潜影贝</h2>
+<p><code>mob.shulker.ambient</code></p>
+<p><code>mob.shulker.bullet.hit</code></p>
+<p><code>mob.shulker.close</code></p>
+<p><code>mob.shulker.close.hurt</code></p>
+<p><code>mob.shulker.death</code></p>
+<p><code>mob.shulker.hurt</code></p>
+<p><code>mob.shulker.open</code></p>
+<p><code>mob.shulker.shoot</code></p>
+<p><code>mob.shulker.teleport</code></p>
+<h2><a id="_906"></a>蠹虫</h2>
+<p><code>mob.silverfish.hit</code></p>
+<p><code>mob.silverfish.kill</code></p>
+<p><code>mob.silverfish.say</code></p>
+<p><code>mob.silverfish.step</code></p>
+<h2><a id="_916"></a>骷髅</h2>
+<p><code>mob.skeleton.death</code></p>
+<p><code>mob.skeleton.hurt</code></p>
+<p><code>mob.skeleton.say</code></p>
+<p><code>mob.skeleton.step</code></p>
+<h2><a id="_926"></a>史莱姆</h2>
+<p><code>mob.slime.attack</code></p>
+<p><code>mob.slime.big</code></p>
+<p><code>mob.slime.death</code></p>
+<p><code>mob.slime.hurt</code></p>
+<p><code>mob.slime.jump</code></p>
+<p><code>mob.slime.small</code></p>
+<p><code>mob.slime.squish</code></p>
+<h2><a id="_942"></a>七巧板</h2>
+<p><code>mob.snowgolem.death</code></p>
+<p><code>mob.snowgolem.hurt</code></p>
+<p><code>mob.snowgolem.shoot</code></p>
+<h2><a id="_950"></a>蜘蛛</h2>
+<p><code>mob.spider.death</code></p>
+<p><code>mob.spider.say</code></p>
+<p><code>mob.spider.step</code></p>
+<h2><a id="_958"></a>鱿鱼</h2>
+<p><code>mob.squid.ambient</code></p>
+<p><code>mob.squid.death</code></p>
+<p><code>mob.squid.hurt</code></p>
+<h2><a id="_966"></a>流浪者</h2>
+<p><code>mob.stray.ambient</code></p>
+<p><code>mob.stray.death</code></p>
+<p><code>mob.stray.hurt</code></p>
+<p><code>mob.stray.step</code></p>
+<h2><a id="_976"></a>海龟</h2>
+<p><code>mob.turtle.ambient</code></p>
+<p><code>mob.turtle.death</code></p>
+<p><code>mob.turtle.hurt</code></p>
+<p><code>mob.turtle.step</code></p>
+<p><code>mob.turtle.swim</code></p>
+<h2><a id="turtle_baby_988"></a>turtle_baby</h2>
+<p><code>mob.turtle_baby.born</code></p>
+<p><code>mob.turtle_baby.death</code></p>
+<p><code>mob.turtle_baby.hurt</code></p>
+<p><code>mob.turtle_baby.step</code></p>
+<h2><a id="_998"></a>恼鬼</h2>
+<p><code>mob.vex.ambient</code></p>
+<p><code>mob.vex.charge</code></p>
+<p><code>mob.vex.death</code></p>
+<p><code>mob.vex.hurt</code></p>
+<h2><a id="_1008"></a>村民</h2>
+<p><code>mob.villager.death</code></p>
+<p><code>mob.villager.haggle</code></p>
+<p><code>mob.villager.hit</code></p>
+<p><code>mob.villager.idle</code></p>
+<p><code>mob.villager.no</code></p>
+<p><code>mob.villager.yes</code></p>
+<h2><a id="_1022"></a>辩护人</h2>
+<p><code>mob.vindicator.celebrate</code></p>
+<p><code>mob.vindicator.death</code></p>
+<p><code>mob.vindicator.hurt</code></p>
+<p><code>mob.vindicator.idle</code></p>
+<h2><a id="_1032"></a>流浪商人</h2>
+<p><code>mob.wanderingtrader.death</code></p>
+<p><code>mob.wanderingtrader.disappeared</code></p>
+<p><code>mob.wanderingtrader.drink_milk</code></p>
+<p><code>mob.wanderingtrader.drink_potion</code></p>
+<p><code>mob.wanderingtrader.haggle</code></p>
+<p><code>mob.wanderingtrader.hurt</code></p>
+<p><code>mob.wanderingtrader.idle</code></p>
+<p><code>mob.wanderingtrader.no</code></p>
+<p><code>mob.wanderingtrader.reappeared</code></p>
+<p><code>mob.wanderingtrader.yes</code></p>
+<h2><a id="_1054"></a>女巫</h2>
+<p><code>mob.witch.ambient</code></p>
+<p><code>mob.witch.celebrate</code></p>
+<p><code>mob.witch.death</code></p>
+<p><code>mob.witch.drink</code></p>
+<p><code>mob.witch.hurt</code></p>
+<p><code>mob.witch.throw</code></p>
+<h2><a id="_1068"></a>凋零</h2>
+<p><code>mob.wither.ambient</code></p>
+<p><code>mob.wither.break_block</code></p>
+<p><code>mob.wither.death</code></p>
+<p><code>mob.wither.hurt</code></p>
+<p><code>mob.wither.shoot</code></p>
+<p><code>mob.wither.spawn</code></p>
+<h2><a id="_1082"></a>狼</h2>
+<p><code>mob.wolf.bark</code></p>
+<p><code>mob.wolf.death</code></p>
+<p><code>mob.wolf.growl</code></p>
+<p><code>mob.wolf.hurt</code></p>
+<p><code>mob.wolf.panting</code></p>
+<p><code>mob.wolf.shake</code></p>
+<p><code>mob.wolf.step</code></p>
+<p><code>mob.wolf.whine</code></p>
+<h2><a id="_1100"></a>僵尸</h2>
+<p><code>mob.zombie.death</code></p>
+<p><code>mob.zombie.hurt</code></p>
+<p><code>mob.zombie.remedy</code></p>
+<p><code>mob.zombie.say</code></p>
+<p><code>mob.zombie.step</code></p>
+<p><code>mob.zombie.unfect</code></p>
+<p><code>mob.zombie.wood</code></p>
+<p><code>mob.zombie.woodbreak</code></p>
+<h2><a id="_1118"></a>僵尸村民</h2>
+<p><code>mob.zombie_villager.death</code></p>
+<p><code>mob.zombie_villager.hurt</code></p>
+<p><code>mob.zombie_villager.say</code></p>
+<h2><a id="_1126"></a>僵尸猪人</h2>
+<p><code>mob.zombiepig.zpig</code></p>
+<p><code>mob.zombiepig.zpigangry</code></p>
+<p><code>mob.zombiepig.zpigdeath</code></p>
+<p><code>mob.zombiepig.zpighurt</code></p>
+<h1><a id="_1136"></a>音乐</h1>
+<p><code>music.game</code></p>
+<p><code>music.game.creative</code></p>
+<p><code>music.game.credits</code></p>
+<p><code>music.game.end</code></p>
+<p><code>music.game.endboss</code></p>
+<p><code>music.game.nether</code></p>
+<p><code>music.menu</code></p>
+<h1><a id="_1152"></a>注意</h1>
+<p><code>note.banjo</code></p>
+<p><code>note.bass</code></p>
+<p><code>note.bassattack</code></p>
+<p><code>note.bd</code></p>
+<p><code>note.bell</code></p>
+<p><code>note.bit</code></p>
+<p><code>note.chime</code></p>
+<p><code>note.cow_bell</code></p>
+<p><code>note.didgeridoo</code></p>
+<p><code>note.flute</code></p>
+<p><code>note.guitar</code></p>
+<p><code>note.harp</code></p>
+<p><code>note.hat</code></p>
+<p><code>note.iron_xylophone</code></p>
+<p><code>note.pling</code></p>
+<p><code>note.snare</code></p>
+<p><code>note.xylophone</code></p>
+<h1><a id="_1188"></a>门户网站</h1>
+<p><code>portal.portal</code></p>
+<p><code>portal.travel</code></p>
+<p><code>portal.trigger</code></p>
+<h1><a id="_1196"></a>袭击</h1>
+<p><code>raid.horn</code></p>
+<h1><a id="_1200"></a>随机</h1>
+<p><code>random.anvil_break</code></p>
+<p><code>random.anvil_land</code></p>
+<p><code>random.anvil_use</code></p>
+<p><code>random.bow</code></p>
+<p><code>random.bowhit</code></p>
+<p><code>random.break</code></p>
+<p><code>random.burp</code></p>
+<p><code>random.chestclosed</code></p>
+<p><code>random.chestopen</code></p>
+<p><code>random.click</code></p>
+<p><code>random.door_close</code></p>
+<p><code>random.door_open</code></p>
+<p><code>random.drink</code></p>
+<p><code>random.eat</code></p>
+<p><code>random.enderchestclosed</code></p>
+<p><code>random.enderchestopen</code></p>
+<p><code>random.explode</code></p>
+<p><code>random.fizz</code></p>
+<p><code>random.fuse</code></p>
+<p><code>random.glass</code></p>
+<p><code>random.hurt</code></p>
+<p><code>random.levelup</code></p>
+<p><code>random.orb</code></p>
+<p><code>random.pop</code></p>
+<p><code>random.pop2</code></p>
+<p><code>random.potion.brewed</code></p>
+<p><code>random.screenshot</code></p>
+<p><code>random.shulkerboxclosed</code></p>
+<p><code>random.shulkerboxopen</code></p>
+<p><code>random.splash</code></p>
+<p><code>random.swim</code></p>
+<p><code>random.toast</code></p>
+<p><code>random.totem</code></p>
+<h1><a id="_1268"></a>记录</h1>
+<p><code>record.11</code></p>
+<p><code>record.13</code></p>
+<p><code>record.blocks</code></p>
+<p><code>record.cat</code></p>
+<p><code>record.chirp</code></p>
+<p><code>record.far</code></p>
+<p><code>record.mall</code></p>
+<p><code>record.mellohi</code></p>
+<p><code>record.stal</code></p>
+<p><code>record.strad</code></p>
+<p><code>record.wait</code></p>
+<p><code>record.ward</code></p>
+<h1><a id="_1294"></a>步</h1>
+<p><code>step.cloth</code></p>
+<p><code>step.grass</code></p>
+<p><code>step.gravel</code></p>
+<p><code>step.ladder</code></p>
+<p><code>step.sand</code></p>
+<p><code>step.slime</code></p>
+<p><code>step.snow</code></p>
+<p><code>step.stone</code></p>
+<p><code>step.wood</code></p>
+<h1><a id="_1314"></a>瓦</h1>
+<p><code>tile.piston.in</code></p>
+<p><code>tile.piston.out</code></p>
+<h1><a id="UI_1320"></a>UI</h1>
+<p><code>ui.cartography_table.take_result</code></p>
+<p><code>ui.loom.select_pattern</code></p>
+<p><code>ui.loom.take_result</code></p>
+<p><code>ui.stonecutter.take_result</code></p>
+<h1><a id="_1330"></a>利用</h1>
+<p><code>use.cloth</code></p>
+<p><code>use.grass</code></p>
+<p><code>use.gravel</code></p>
+<p><code>use.ladder</code></p>
+<p><code>use.sand</code></p>
+<p><code>use.slime</code></p>
+<p><code>use.snow</code></p>
+<p><code>use.stone</code></p>
+<p><code>use.wood</code></p>
+<h1><a id="VR_1350"></a>VR</h1>
+<p><code>vr.stutterturn</code></p>
+</div><div class="article-navigation"><span class="prev">上一篇：<a href="../运行标识符/index.html">运行标识符</a></span><span class="next">下一篇：<a href="../颜色字体/index.html">颜色字体</a></span></div><div class="article-foot"></div></div></div></div></div></div><script src="../../../asset/reader.js"></script><script src="../../../asset/plugins/ad/reader/index.js"></script><script src="../../../asset/plugins/copy-code/reader/index.js"></script><script src="../../../asset/plugins/flow/reader/index.js"></script><script src="../../../asset/plugins/highlight/reader/index.js"></script><script src="../../../asset/plugins/tex/reader/index.js"></script><script src="../../../asset/plugins/sequence/reader/index.js"></script><script src="../../../asset/plugins/theme-default/reader/index.js"></script><script src="../../../asset/plugins/search/reader/index.js"></script><script src="../../../asset/plugins/image-zoom/reader/index.js"></script><script src="../../../asset/plugins/audio/reader/index.js"></script><script type="application/payload+json">{"config":{"plugins":["highlight","tex","ad","copyright","image-zoom","sequence","flow","copy-code","audio","search"],"pluginsConfig":{"theme-default":{"auto_open":true},"highlight":{"defaultLanguage":"javascript"},"ad":{"beforeArticleBody":[],"afterArticleBody":[]},"audio":[]},"cover":"cover.jpg","title":"AddonWiki","id":483922,"description":""},"summary":[{"level":"1","title":"主页","ref":"home.md","path":"home.html","articles":[]},{"level":"2","title":"Addonr入门教程","ref":"Addon入门教程\/index.md","path":"Addon入门教程\/index.html","articles":[{"level":"2.1","title":"0.Addon入门教程前言","ref":"Addon入门教程\/0.Addon教程前言\/index.md","path":"Addon入门教程\/0.Addon教程前言\/index.html","articles":[]},{"level":"2.2","title":"1.AddOns基础知识","ref":"Addon入门教程\/1.AddOns基础知识\/index.md","path":"Addon入门教程\/1.AddOns基础知识\/index.html","articles":[{"level":"2.2.1","title":"1-1.AddOns附加包的定义与发展史","ref":"Addon入门教程\/1.AddOns基础知识\/1-1.AddOns附加包的定义与发展史\/index.md","path":"Addon入门教程\/1.AddOns基础知识\/1-1.AddOns附加包的定义与发展史\/index.html","articles":[]},{"level":"2.2.2","title":"1-2.JSON基础认识","ref":"Addon入门教程\/1.AddOns基础知识\/1-2.JSON基础认识\/index.md","path":"Addon入门教程\/1.AddOns基础知识\/1-2.JSON基础认识\/index.html","articles":[]},{"level":"2.2.3","title":"1-3.工具准备","ref":"Addon入门教程\/1.AddOns基础知识\/1-3.工具准备\/index.md","path":"Addon入门教程\/1.AddOns基础知识\/1-3.工具准备\/index.html","articles":[]}]},{"level":"2.3","title":"2.AddOns组成结构","ref":"Addon入门教程\/2.AddOns组成结构\/index.md","path":"Addon入门教程\/2.AddOns组成结构\/index.html","articles":[{"level":"2.3.1","title":"2-1.第一个包!","ref":"Addon入门教程\/2.AddOns组成结构\/2-1.第一个包\/index.md","path":"Addon入门教程\/2.AddOns组成结构\/2-1.第一个包\/index.html","articles":[]},{"level":"2.3.2","title":"2-2.导入与测试","ref":"Addon入门教程\/2.AddOns组成结构\/2-2.导入与测试\/index.md","path":"Addon入门教程\/2.AddOns组成结构\/2-2.导入与测试\/index.html","articles":[]}]},{"level":"2.4","title":"3.自定义游戏内容","ref":"Addon入门教程\/3.自定义游戏内容\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/index.html","articles":[{"level":"2.4.1","title":"3-1.自定义物品","ref":"Addon入门教程\/3.自定义游戏内容\/3-1.自定义物品\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-1.自定义物品\/index.html","articles":[]},{"level":"2.4.2","title":"3-2.自定义方块","ref":"Addon入门教程\/3.自定义游戏内容\/3-2.自定义方块\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-2.自定义方块\/index.html","articles":[]},{"level":"2.4.3","title":"3-3.自定义配方","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/index.html","articles":[{"level":"2.4.3.1","title":"3-3-1.自定义合成","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-1.自定义合成\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-1.自定义合成\/index.html","articles":[]},{"level":"2.4.3.2","title":"3-3-2.自定义熔炼","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-2.自定义熔炼\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-2.自定义熔炼\/index.html","articles":[]},{"level":"2.4.3.3","title":"3-3-3.自定义切石机","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-3.自定义切石机\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-3.自定义切石机\/index.html","articles":[]},{"level":"2.4.3.4","title":"3-3-4.自定义酿造台","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-4.自定义酿造台\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-4.自定义酿造台\/index.html","articles":[]},{"level":"2.4.3.5","title":"3-3-5.自定义制图台","ref":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-5.自定义制图台\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-3.自定义配方\/3-3-5.自定义制图台\/index.html","articles":[]}]},{"level":"2.4.4","title":"3-4.自定义生成结构","ref":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/index.html","articles":[{"level":"2.4.4.1","title":"3-4-1.自定义生物群系","ref":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-1.自定义生物群系\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-1.自定义生物群系\/index.html","articles":[]},{"level":"2.4.4.2","title":"3-4-2.自定义树特征","ref":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-2.自定义树特征\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-2.自定义树特征\/index.html","articles":[]},{"level":"2.4.4.3","title":"3-4-3.自定义矿石特征","ref":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-3.自定义矿石特征\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-3.自定义矿石特征\/index.html","articles":[]},{"level":"2.4.4.4","title":"3-4-4.自定义结构特征","ref":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-4.自定义结构特征\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-4.自定义生成结构\/3-4-4.自定义结构特征\/index.html","articles":[]}]},{"level":"2.4.5","title":"3-5.自定义实体","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/index.html","articles":[{"level":"2.4.5.1","title":"3-5-1.组成结构","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-1.组成结构\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-1.组成结构\/index.html","articles":[]},{"level":"2.4.5.2","title":"3-5-2.行为包部分-实体行为(必选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-2.行为包部分-实体行为必选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-2.行为包部分-实体行为必选\/index.html","articles":[]},{"level":"2.4.5.3","title":"3-5-3.行为包部分-实体生成(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-3.行为包部分-实体生成可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-3.行为包部分-实体生成可选\/index.html","articles":[]},{"level":"2.4.5.4","title":"3-5-4.行为包部分-实体掉落物(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-4.行为包部分-实体掉落物可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-4.行为包部分-实体掉落物可选\/index.html","articles":[]},{"level":"2.4.5.5","title":"3-5-5.资源包部分-实体资源包定义(必选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-5.资源包部分-实体资源包定义必选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-5.资源包部分-实体资源包定义必选\/index.html","articles":[]},{"level":"2.4.5.6","title":"3-5-6.资源包部分-材料(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-6.资源包部分-材料可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-6.资源包部分-材料可选\/index.html","articles":[]},{"level":"2.4.5.7","title":"3-5-7.资源包部分-模型(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-7.资源包部分-模型可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-7.资源包部分-模型可选\/index.html","articles":[]},{"level":"2.4.5.8","title":"3-5-8.资源包部分-贴图(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-8.资源包部分-贴图可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-8.资源包部分-贴图可选\/index.html","articles":[]},{"level":"2.4.5.9","title":"3-5-9.动画","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-9.动画\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-9.动画\/index.html","articles":[]},{"level":"2.4.5.10","title":"3-5-10.动画控制器","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-10.动画控制器\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-10.动画控制器\/index.html","articles":[]},{"level":"2.4.5.11","title":"3-5-11.资源包部分-渲染控制器(可选)","ref":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-11.资源包部分-渲染控制器可选\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-5.自定义实体\/3-5-11.资源包部分-渲染控制器可选\/index.html","articles":[]}]},{"level":"2.4.6","title":"3-6.自定义颗粒效果","ref":"Addon入门教程\/3.自定义游戏内容\/3-6.自定义颗粒效果\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-6.自定义颗粒效果\/index.html","articles":[]},{"level":"2.4.7","title":"3-7.自定义音乐与音效","ref":"Addon入门教程\/3.自定义游戏内容\/3-7.自定义音乐与音效\/index.md","path":"Addon入门教程\/3.自定义游戏内容\/3-7.自定义音乐与音效\/index.html","articles":[]}]},{"level":"2.5","title":"4.后期","ref":"Addon入门教程\/4.后期\/index.md","path":"Addon入门教程\/4.后期\/index.html","articles":[{"level":"2.5.1","title":"4-1.Addon加密","ref":"Addon入门教程\/4.后期\/4-1.Addon加密\/index.md","path":"Addon入门教程\/4.后期\/4-1.Addon加密\/index.html","articles":[]},{"level":"2.5.2","title":"4-2.Addon发布","ref":"Addon入门教程\/4.后期\/4-2.Addon发布\/index.md","path":"Addon入门教程\/4.后期\/4-2.Addon发布\/index.html","articles":[]}]}]},{"level":"3","title":"基础概念","ref":"基础概念\/index.md","path":"基础概念\/index.html","articles":[{"level":"3.1","title":"Lang语言","ref":"基础概念\/Lang语言\/index.md","path":"基础概念\/Lang语言\/index.html","articles":[]},{"level":"3.2","title":"Function命令函数","ref":"基础概念\/Function命令函数\/index.md","path":"基础概念\/Function命令函数\/index.html","articles":[]},{"level":"3.3","title":"Structure结构","ref":"基础概念\/Structure结构\/index.md","path":"基础概念\/Structure结构\/index.html","articles":[]},{"level":"3.4","title":"组件、组件组、事件","ref":"基础概念\/组件、组件组、事件\/index.md","path":"基础概念\/组件、组件组、事件\/index.html","articles":[]},{"level":"3.5","title":"指令","ref":"基础概念\/指令\/index.md","path":"基础概念\/指令\/index.html","articles":[]}]},{"level":"4","title":"名词解释","ref":"名词解释\/index.md","path":"名词解释\/index.html","articles":[{"level":"4.1","title":"标识符","ref":"名词解释\/标识符\/index.md","path":"名词解释\/标识符\/index.html","articles":[]},{"level":"4.2","title":"命名空间","ref":"名词解释\/命名空间\/index.md","path":"名词解释\/命名空间\/index.html","articles":[]},{"level":"4.3","title":"优先权","ref":"名词解释\/优先权\/index.md","path":"名词解释\/优先权\/index.html","articles":[]},{"level":"4.4","title":"Nbt","ref":"名词解释\/Nbt\/index.md","path":"名词解释\/Nbt\/index.html","articles":[]},{"level":"4.5","title":"运行标识符","ref":"名词解释\/运行标识符\/index.md","path":"名词解释\/运行标识符\/index.html","articles":[]},{"level":"4.6","title":"value","ref":"名词解释\/value\/index.md","path":"名词解释\/value\/index.html","articles":[]},{"level":"4.7","title":"范围值","ref":"名词解释\/范围值\/index.md","path":"名词解释\/范围值\/index.html","articles":[]},{"level":"4.8","title":"概率","ref":"名词解释\/概率\/index.md","path":"名词解释\/概率\/index.html","articles":[]},{"level":"4.9","title":"浮点数","ref":"名词解释\/浮点数\/index.md","path":"名词解释\/浮点数\/index.html","articles":[]}]},{"level":"5","title":"专辑篇","ref":"专辑篇\/index.md","path":"专辑篇\/index.html","articles":[{"level":"5.1","title":"交易列表","ref":"专辑篇\/交易列表\/index.md","path":"专辑篇\/交易列表\/index.html","articles":[]},{"level":"5.2","title":"战利品表","ref":"专辑篇\/战利品表\/index.md","path":"专辑篇\/战利品表\/index.html","articles":[]},{"level":"5.3","title":"滤器","ref":"专辑篇\/滤器\/index.md","path":"专辑篇\/滤器\/index.html","articles":[]},{"level":"5.4","title":"实体生成","ref":"专辑篇\/实体生成\/index.md","path":"专辑篇\/实体生成\/index.html","articles":[]},{"level":"5.5","title":"触发器","ref":"专辑篇\/触发器\/index.md","path":"专辑篇\/触发器\/index.html","articles":[]},{"level":"5.6","title":"事件","ref":"专辑篇\/事件\/index.md","path":"专辑篇\/事件\/index.html","articles":[]},{"level":"5.7","title":"MoLang","ref":"专辑篇\/Molang\/index.md","path":"专辑篇\/Molang\/index.html","articles":[]},{"level":"5.8","title":"动画与动画控制器","ref":"专辑篇\/动画与动画控制器\/index.md","path":"专辑篇\/动画与动画控制器\/index.html","articles":[]},{"level":"5.9","title":"渲染控制器","ref":"专辑篇\/渲染控制器\/index.md","path":"专辑篇\/渲染控制器\/index.html","articles":[]},{"level":"5.10","title":"材料","ref":"专辑篇\/材料\/index.md","path":"专辑篇\/材料\/index.html","articles":[]},{"level":"5.11","title":"着色器（光影）","ref":"专辑篇\/着色器（光影）\/index.md","path":"专辑篇\/着色器（光影）\/index.html","articles":[]},{"level":"5.12","title":"JSON用户界面UI","ref":"专辑篇\/JSON用户界面UI\/index.md","path":"专辑篇\/JSON用户界面UI\/index.html","articles":[]}]},{"level":"6","title":"脚本引擎","ref":"脚本引擎\/index.md","path":"脚本引擎\/index.html","articles":[]},{"level":"7","title":"技巧","ref":"技巧\/index.md","path":"技巧\/index.html","articles":[{"level":"7.1","title":"模型、贴图、动画","ref":"技巧\/模型、贴图、动画\/index.md","path":"技巧\/模型、贴图、动画\/index.html","articles":[]}]},{"level":"8","title":"API文档","ref":"ApiDoc\/index.md","path":"ApiDoc\/index.html","articles":[{"level":"8.1","title":"版本","ref":"ApiDoc\/版本\/index.md","path":"ApiDoc\/版本\/index.html","articles":[{"level":"8.1.1","title":"1.16.200.2","ref":"ApiDoc\/版本\/1.16.200.2\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/index.html","articles":[{"level":"8.1.1.1","title":"附加包","ref":"ApiDoc\/版本\/1.16.200.2\/附加包\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/附加包\/index.html","articles":[]},{"level":"8.1.1.2","title":"动画","ref":"ApiDoc\/版本\/1.16.200.2\/动画\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/动画\/index.html","articles":[]},{"level":"8.1.1.3","title":"生物群系","ref":"ApiDoc\/版本\/1.16.200.2\/生物群系\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/生物群系\/index.html","articles":[]},{"level":"8.1.1.4","title":"方块","ref":"ApiDoc\/版本\/1.16.200.2\/方块\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/方块\/index.html","articles":[]},{"level":"8.1.1.5","title":"实体","ref":"ApiDoc\/版本\/1.16.200.2\/实体\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/实体\/index.html","articles":[]},{"level":"8.1.1.6","title":"实体事件","ref":"ApiDoc\/版本\/1.16.200.2\/实体事件\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/实体事件\/index.html","articles":[]},{"level":"8.1.1.7","title":"特征","ref":"ApiDoc\/版本\/1.16.200.2\/特征\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/特征\/index.html","articles":[]},{"level":"8.1.1.8","title":"物品","ref":"ApiDoc\/版本\/1.16.200.2\/物品\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/物品\/index.html","articles":[]},{"level":"8.1.1.9","title":"Molang","ref":"ApiDoc\/版本\/1.16.200.2\/Molang\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/Molang\/index.html","articles":[]},{"level":"8.1.1.10","title":"粒子效果","ref":"ApiDoc\/版本\/1.16.200.2\/粒子效果\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/粒子效果\/index.html","articles":[]},{"level":"8.1.1.11","title":"配方","ref":"ApiDoc\/版本\/1.16.200.2\/配方\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/配方\/index.html","articles":[]},{"level":"8.1.1.12","title":"架构","ref":"ApiDoc\/版本\/1.16.200.2\/架构\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/架构\/index.html","articles":[]},{"level":"8.1.1.13","title":"脚本","ref":"ApiDoc\/版本\/1.16.200.2\/脚本\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/脚本\/index.html","articles":[]},{"level":"8.1.1.14","title":"纹理集","ref":"ApiDoc\/版本\/1.16.200.2\/纹理集\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/纹理集\/index.html","articles":[]},{"level":"8.1.1.15","title":"UI","ref":"ApiDoc\/版本\/1.16.200.2\/UI\/index.md","path":"ApiDoc\/版本\/1.16.200.2\/UI\/index.html","articles":[]}]}]},{"level":"8.2","title":"其它文档","ref":"ApiDoc\/其它文档\/index.md","path":"ApiDoc\/其它文档\/index.html","articles":[{"level":"8.2.1","title":"脚本","ref":"ApiDoc\/其它文档\/脚本\/index.md","path":"ApiDoc\/其它文档\/脚本\/index.html","articles":[{"level":"8.2.1.1","title":"脚本引擎系统","ref":"ApiDoc\/其它文档\/脚本\/脚本引擎系统\/index.md","path":"ApiDoc\/其它文档\/脚本\/脚本引擎系统\/index.html","articles":[]},{"level":"8.2.1.2","title":"API对象","ref":"ApiDoc\/其它文档\/脚本\/API对象\/index.md","path":"ApiDoc\/其它文档\/脚本\/API对象\/index.html","articles":[]},{"level":"8.2.1.3","title":"组件","ref":"ApiDoc\/其它文档\/脚本\/组件\/index.md","path":"ApiDoc\/其它文档\/脚本\/组件\/index.html","articles":[]},{"level":"8.2.1.4","title":"事件","ref":"ApiDoc\/其它文档\/脚本\/事件\/index.md","path":"ApiDoc\/其它文档\/脚本\/事件\/index.html","articles":[]}]},{"level":"8.2.2","title":"H5UI","ref":"ApiDoc\/其它文档\/H5UI\/index.md","path":"ApiDoc\/其它文档\/H5UI\/index.html","articles":[]},{"level":"8.2.3","title":"MoLang","ref":"ApiDoc\/其它文档\/MoLang\/index.md","path":"ApiDoc\/其它文档\/MoLang\/index.html","articles":[]},{"level":"8.2.4","title":"着色器","ref":"ApiDoc\/其它文档\/着色器\/index.md","path":"ApiDoc\/其它文档\/着色器\/index.html","articles":[]},{"level":"8.2.5","title":"材料","ref":"ApiDoc\/其它文档\/材料\/index.md","path":"ApiDoc\/其它文档\/材料\/index.html","articles":[]},{"level":"8.2.6","title":"JSON用户界面UI","ref":"ApiDoc\/其它文档\/JSON用户界面UI\/index.md","path":"ApiDoc\/其它文档\/JSON用户界面UI\/index.html","articles":[]},{"level":"8.2.7","title":"生物群系","ref":"ApiDoc\/其它文档\/生物群系\/index.md","path":"ApiDoc\/其它文档\/生物群系\/index.html","articles":[]},{"level":"8.2.8","title":"粒子效果","ref":"ApiDoc\/其它文档\/粒子效果\/index.md","path":"ApiDoc\/其它文档\/粒子效果\/index.html","articles":[]},{"level":"8.2.9","title":"实体事件","ref":"ApiDoc\/其它文档\/实体事件\/index.md","path":"ApiDoc\/其它文档\/实体事件\/index.html","articles":[]},{"level":"8.2.10","title":"战利品表","ref":"ApiDoc\/其它文档\/战利品表\/index.md","path":"ApiDoc\/其它文档\/战利品表\/index.html","articles":[]},{"level":"8.2.11","title":"交易列表","ref":"ApiDoc\/其它文档\/交易列表\/index.md","path":"ApiDoc\/其它文档\/交易列表\/index.html","articles":[]},{"level":"8.2.12","title":"实体生成","ref":"ApiDoc\/其它文档\/实体生成\/index.md","path":"ApiDoc\/其它文档\/实体生成\/index.html","articles":[]},{"level":"8.2.13","title":"滤器","ref":"ApiDoc\/其它文档\/滤器\/index.md","path":"ApiDoc\/其它文档\/滤器\/index.html","articles":[]},{"level":"8.2.14","title":"触发器","ref":"ApiDoc\/其它文档\/触发器\/index.md","path":"ApiDoc\/其它文档\/触发器\/index.html","articles":[]},{"level":"8.2.15","title":"方块","ref":"ApiDoc\/其它文档\/方块\/index.md","path":"ApiDoc\/其它文档\/方块\/index.html","articles":[]},{"level":"8.2.16","title":"物品栏子分类","ref":"ApiDoc\/其它文档\/物品栏子分类\/index.md","path":"ApiDoc\/其它文档\/物品栏子分类\/index.html","articles":[]},{"level":"8.2.17","title":"运行标识符","ref":"ApiDoc\/其它文档\/运行标识符\/index.md","path":"ApiDoc\/其它文档\/运行标识符\/index.html","articles":[]},{"level":"8.2.18","title":"声音","ref":"ApiDoc\/其它文档\/声音\/index.md","path":"ApiDoc\/其它文档\/声音\/index.html","articles":[]},{"level":"8.2.19","title":"颜色字体","ref":"ApiDoc\/其它文档\/颜色字体\/index.md","path":"ApiDoc\/其它文档\/颜色字体\/index.html","articles":[]},{"level":"8.2.20","title":"特殊字符","ref":"ApiDoc\/其它文档\/特殊字符\/index.md","path":"ApiDoc\/其它文档\/特殊字符\/index.html","articles":[]}]}]}],"article":{"path":"ApiDoc\/其它文档\/声音\/index.html","ref":"ApiDoc\/其它文档\/声音\/index.md","title":"声音","content":"# 声音\n最后更新适配版本：1.16.200.2正式版\n*****\n # 周围\n    \n\n`ambient.weather.lightning.impact`\n\n`ambient.weather.rain`\n\n`ambient.weather.thunder`\n\n# 盔甲\n\n`armor.equip_chain`\n\n`armor.equip_diamond`\n\n`armor.equip_generic`\n\n`armor.equip_gold`\n\n`armor.equip_iron`\n\n`armor.equip_leather`\n\n#  信标\n\n`beacon.activate`\n\n`beacon.ambient`\n\n`beacon.deactivate`\n\n`beacon.power`\n\n# 块\n\n`block.bamboo.break`\n\n`block.bamboo.fall`\n\n`block.bamboo.hit`\n\n`block.bamboo.place`\n\n`block.bamboo.step`\n\n`block.bamboo_sapling.break`\n\n`block.bamboo_sapling.place`\n\n`block.barrel.close`\n\n`block.barrel.open`\n\n`block.bell.hit`\n\n`block.blastfurnace.fire_crackle`\n\n`block.campfire.crackle`\n\n`block.cartography_table.use`\n\n`block.chorusflower.death`\n\n`block.chorusflower.grow`\n\n`block.composter.empty`\n\n`block.composter.fill`\n\n`block.composter.fill_success`\n\n`block.composter.ready`\n\n`block.end_portal.spawn`\n\n`block.end_portal_frame.fill`\n\n`block.false_permissions`\n\n`block.furnace.lit`\n\n`block.grindstone.use`\n\n`block.itemframe.add_item`\n\n`block.itemframe.break`\n\n`block.itemframe.place`\n\n`block.itemframe.remove_item`\n\n`block.itemframe.rotate_item`\n\n`block.lantern.break`\n\n`block.lantern.fall`\n\n`block.lantern.hit`\n\n`block.lantern.place`\n\n`block.lantern.step`\n\n`block.loom.use`\n\n`block.scaffolding.break`\n\n`block.scaffolding.climb`\n\n`block.scaffolding.fall`\n\n`block.scaffolding.hit`\n\n`block.scaffolding.place`\n\n`block.scaffolding.step`\n\n`block.smoker.smoke`\n\n`block.stonecutter.use`\n\n`block.sweet_berry_bush.break`\n\n`block.sweet_berry_bush.hurt`\n\n`block.sweet_berry_bush.pick`\n\n`block.sweet_berry_bush.place`\n\n`block.turtle_egg.break`\n\n`block.turtle_egg.crack`\n\n`block.turtle_egg.drop`\n\n# 瓶子\n\n`bottle.dragonbreath`\n\n# 泡沫\n\n`bubble.down`\n\n`bubble.downinside`\n\n`bubble.pop`\n\n`bubble.up`\n\n`bubble.upinside`\n\n# 桶\n\n`bucket.empty_fish`\n\n`bucket.empty_lava`\n\n`bucket.empty_water`\n\n`bucket.fill_fish`\n\n`bucket.fill_lava`\n\n`bucket.fill_water`\n\n# 相机\n\n`camera.take_picture`\n\n# 釜\n\n`cauldron.adddye`\n\n`cauldron.cleanarmor`\n\n`cauldron.cleanbanner`\n\n`cauldron.dyearmor`\n\n`cauldron.explode`\n\n`cauldron.fillpotion`\n\n`cauldron.fillwater`\n\n`cauldron.takepotion`\n\n`cauldron.takewater`\n\n# 导管\n\n`conduit.activate`\n\n`conduit.ambient`\n\n`conduit.attack`\n\n`conduit.deactivate`\n\n`conduit.short`\n\n# 弩\n\n`crossbow.loading.end`\n\n`crossbow.loading.middle`\n\n`crossbow.loading.start`\n\n`crossbow.quick_charge.end`\n\n`crossbow.quick_charge.middle`\n\n`crossbow.quick_charge.start`\n\n`crossbow.shoot`\n\n# 损伤\n\n`damage.fallbig`\n\n`damage.fallsmall`\n\n# 挖\n\n`dig.cloth`\n\n`dig.grass`\n\n`dig.gravel`\n\n`dig.sand`\n\n`dig.snow`\n\n`dig.stone`\n\n`dig.wood`\n\n# 鞘翅\n\n`elytra.loop`\n\n# 实体\n\n`entity.zombie.converted_to_drowned`\n\n# 秋季\n\n`fall.cloth`\n\n`fall.egg`\n\n`fall.grass`\n\n`fall.gravel`\n\n`fall.ladder`\n\n`fall.sand`\n\n`fall.slime`\n\n`fall.snow`\n\n`fall.stone`\n\n`fall.wood`\n\n# 火\n\n`fire.fire`\n\n`fire.ignite`\n\n# 焰火\n\n`firework.blast`\n\n`firework.large_blast`\n\n`firework.launch`\n\n`firework.shoot`\n\n`firework.twinkle`\n\n# 游戏\n\n`game.player.attack.nodamage`\n\n`game.player.attack.strong`\n\n`game.player.die`\n\n`game.player.hurt`\n\n# 击中\n\n`hit.cloth`\n\n`hit.grass`\n\n`hit.gravel`\n\n`hit.ladder`\n\n`hit.sand`\n\n`hit.slime`\n\n`hit.snow`\n\n`hit.stone`\n\n`hit.wood`\n\n# 项目\n\n`item.book.page_turn`\n\n`item.book.put`\n\n`item.shield.block`\n\n`item.trident.hit`\n\n`item.trident.hit_ground`\n\n`item.trident.return`\n\n`item.trident.riptide_1`\n\n`item.trident.riptide_2`\n\n`item.trident.riptide_3`\n\n`item.trident.throw`\n\n`item.trident.thunder`\n\n# 跳\n\n`jump.cloth`\n\n`jump.grass`\n\n`jump.gravel`\n\n`jump.sand`\n\n`jump.slime`\n\n`jump.snow`\n\n`jump.stone`\n\n`jump.wood`\n\n# 土地\n\n`land.cloth`\n\n`land.grass`\n\n`land.gravel`\n\n`land.sand`\n\n`land.slime`\n\n`land.snow`\n\n`land.stone`\n\n`land.wood`\n\n# 皮带结\n\n`leashknot.break`\n\n`leashknot.place`\n\n# 液体\n\n`liquid.lava`\n\n`liquid.lavapop`\n\n`liquid.water`\n\n# 矿车\n\n`minecart.base`\n\n`minecart.inside`\n\n# 暴民\n\n## 代理人\n\n`mob.agent.spawn`\n\n## Armor\\_stand\n\n`mob.armor_stand.break`\n\n`mob.armor_stand.hit`\n\n`mob.armor_stand.land`\n\n`mob.armor_stand.place`\n\n## 蝙蝠\n\n`mob.bat.death`\n\n`mob.bat.hurt`\n\n`mob.bat.idle`\n\n`mob.bat.takeoff`\n\n## 火焰\n\n`mob.blaze.breathe`\n\n`mob.blaze.death`\n\n`mob.blaze.hit`\n\n`mob.blaze.shoot`\n\n## 猫\n\n`mob.cat.beg`\n\n`mob.cat.eat`\n\n`mob.cat.hiss`\n\n`mob.cat.hit`\n\n`mob.cat.meow`\n\n`mob.cat.purr`\n\n`mob.cat.purreow`\n\n`mob.cat.straymeow`\n\n## 鸡\n\n`mob.chicken.hurt`\n\n`mob.chicken.plop`\n\n`mob.chicken.say`\n\n`mob.chicken.step`\n\n## 牛\n\n`mob.cow.hurt`\n\n`mob.cow.milk`\n\n`mob.cow.say`\n\n`mob.cow.step`\n\n## 爬行者\n\n`mob.creeper.death`\n\n`mob.creeper.say`\n\n## 海豚\n\n`mob.dolphin.attack`\n\n`mob.dolphin.blowhole`\n\n`mob.dolphin.death`\n\n`mob.dolphin.eat`\n\n`mob.dolphin.hurt`\n\n`mob.dolphin.idle`\n\n`mob.dolphin.idle_water`\n\n`mob.dolphin.jump`\n\n`mob.dolphin.play`\n\n`mob.dolphin.splash`\n\n`mob.dolphin.swim`\n\n## 淹死\n\n`mob.drowned.death`\n\n`mob.drowned.death_water`\n\n`mob.drowned.hurt`\n\n`mob.drowned.hurt_water`\n\n`mob.drowned.say`\n\n`mob.drowned.say_water`\n\n`mob.drowned.shoot`\n\n`mob.drowned.step`\n\n`mob.drowned.swim`\n\n## 守卫者\n\n`mob.elderguardian.curse`\n\n`mob.elderguardian.death`\n\n`mob.elderguardian.hit`\n\n`mob.elderguardian.idle`\n\n## enderdragon\n\n`mob.enderdragon.death`\n\n`mob.enderdragon.flap`\n\n`mob.enderdragon.growl`\n\n`mob.enderdragon.hit`\n\n## 恩德门\n\n`mob.endermen.death`\n\n`mob.endermen.hit`\n\n`mob.endermen.idle`\n\n`mob.endermen.portal`\n\n`mob.endermen.scream`\n\n`mob.endermen.stare`\n\n## 末影螨\n\n`mob.endermite.hit`\n\n`mob.endermite.kill`\n\n`mob.endermite.say`\n\n`mob.endermite.step`\n\n## evocation\\_fangs\n\n`mob.evocation_fangs.attack`\n\n## evocation\\_illager\n\n`mob.evocation_illager.ambient`\n\n`mob.evocation_illager.cast_spell`\n\n`mob.evocation_illager.celebrate`\n\n`mob.evocation_illager.death`\n\n`mob.evocation_illager.hurt`\n\n`mob.evocation_illager.prepare_attack`\n\n`mob.evocation_illager.prepare_summon`\n\n`mob.evocation_illager.prepare_wololo`\n\n## 鱼\n\n`mob.fish.flop`\n\n`mob.fish.hurt`\n\n`mob.fish.step`\n\n## 狐狸\n\n`mob.fox.aggro`\n\n`mob.fox.ambient`\n\n`mob.fox.bite`\n\n`mob.fox.death`\n\n`mob.fox.eat`\n\n`mob.fox.hurt`\n\n`mob.fox.screech`\n\n`mob.fox.sleep`\n\n`mob.fox.sniff`\n\n`mob.fox.spit`\n\n## 恐怖\n\n`mob.ghast.affectionate_scream`\n\n`mob.ghast.charge`\n\n`mob.ghast.death`\n\n`mob.ghast.fireball`\n\n`mob.ghast.moan`\n\n`mob.ghast.scream`\n\n## 监护人\n\n`mob.guardian.ambient`\n\n`mob.guardian.attack_loop`\n\n`mob.guardian.death`\n\n`mob.guardian.flop`\n\n`mob.guardian.hit`\n\n`mob.guardian.land_death`\n\n`mob.guardian.land_hit`\n\n`mob.guardian.land_idle`\n\n## 马\n\n`mob.horse.angry`\n\n`mob.horse.armor`\n\n`mob.horse.breathe`\n\n`mob.horse.death`\n\n`mob.horse.donkey.angry`\n\n`mob.horse.donkey.death`\n\n`mob.horse.donkey.hit`\n\n`mob.horse.donkey.idle`\n\n`mob.horse.eat`\n\n`mob.horse.gallop`\n\n`mob.horse.hit`\n\n`mob.horse.idle`\n\n`mob.horse.jump`\n\n`mob.horse.land`\n\n`mob.horse.leather`\n\n`mob.horse.skeleton.death`\n\n`mob.horse.skeleton.hit`\n\n`mob.horse.skeleton.idle`\n\n`mob.horse.soft`\n\n`mob.horse.wood`\n\n`mob.horse.zombie.death`\n\n`mob.horse.zombie.hit`\n\n`mob.horse.zombie.idle`\n\n## 稻壳\n\n`mob.husk.ambient`\n\n`mob.husk.death`\n\n`mob.husk.hurt`\n\n`mob.husk.step`\n\n## 铁巨人\n\n`mob.irongolem.death`\n\n`mob.irongolem.hit`\n\n`mob.irongolem.throw`\n\n`mob.irongolem.walk`\n\n## 骆驼\n\n`mob.llama.angry`\n\n`mob.llama.death`\n\n`mob.llama.eat`\n\n`mob.llama.hurt`\n\n`mob.llama.idle`\n\n`mob.llama.spit`\n\n`mob.llama.step`\n\n`mob.llama.swag`\n\n## 磁宏\n\n`mob.magmacube.big`\n\n`mob.magmacube.jump`\n\n`mob.magmacube.small`\n\n## 蘑菇屋\n\n`mob.mooshroom.convert`\n\n`mob.mooshroom.eat`\n\n`mob.mooshroom.suspicious_milk`\n\n## 豹猫\n\n`mob.ocelot.death`\n\n`mob.ocelot.idle`\n\n## 熊猫\n\n`mob.panda.bite`\n\n`mob.panda.cant_breed`\n\n`mob.panda.death`\n\n`mob.panda.eat`\n\n`mob.panda.hurt`\n\n`mob.panda.idle`\n\n`mob.panda.idle.aggressive`\n\n`mob.panda.idle.worried`\n\n`mob.panda.presneeze`\n\n`mob.panda.sneeze`\n\n`mob.panda.step`\n\n## 熊猫宝宝\n\n`mob.panda_baby.idle`\n\n## 鹦鹉\n\n`mob.parrot.death`\n\n`mob.parrot.eat`\n\n`mob.parrot.fly`\n\n`mob.parrot.hurt`\n\n`mob.parrot.idle`\n\n`mob.parrot.step`\n\n## 幻影\n\n`mob.phantom.bite`\n\n`mob.phantom.death`\n\n`mob.phantom.hurt`\n\n`mob.phantom.idle`\n\n`mob.phantom.swoop`\n\n## 猪\n\n`mob.pig.boost`\n\n`mob.pig.death`\n\n`mob.pig.say`\n\n`mob.pig.step`\n\n## 乱兵\n\n`mob.pillager.celebrate`\n\n`mob.pillager.death`\n\n`mob.pillager.hurt`\n\n`mob.pillager.idle`\n\n## 北极熊\n\n`mob.polarbear.death`\n\n`mob.polarbear.hurt`\n\n`mob.polarbear.idle`\n\n`mob.polarbear.step`\n\n`mob.polarbear.warning`\n\n## polarbear\\_baby\n\n`mob.polarbear_baby.idle`\n\n## 兔子\n\n`mob.rabbit.death`\n\n`mob.rabbit.hop`\n\n`mob.rabbit.hurt`\n\n`mob.rabbit.idle`\n\n## 掠夺者\n\n`mob.ravager.ambient`\n\n`mob.ravager.bite`\n\n`mob.ravager.celebrate`\n\n`mob.ravager.death`\n\n`mob.ravager.hurt`\n\n`mob.ravager.roar`\n\n`mob.ravager.step`\n\n`mob.ravager.stun`\n\n## 羊\n\n`mob.sheep.say`\n\n`mob.sheep.shear`\n\n`mob.sheep.step`\n\n## 潜影贝\n\n`mob.shulker.ambient`\n\n`mob.shulker.bullet.hit`\n\n`mob.shulker.close`\n\n`mob.shulker.close.hurt`\n\n`mob.shulker.death`\n\n`mob.shulker.hurt`\n\n`mob.shulker.open`\n\n`mob.shulker.shoot`\n\n`mob.shulker.teleport`\n\n## 蠹虫\n\n`mob.silverfish.hit`\n\n`mob.silverfish.kill`\n\n`mob.silverfish.say`\n\n`mob.silverfish.step`\n\n## 骷髅\n\n`mob.skeleton.death`\n\n`mob.skeleton.hurt`\n\n`mob.skeleton.say`\n\n`mob.skeleton.step`\n\n## 史莱姆\n\n`mob.slime.attack`\n\n`mob.slime.big`\n\n`mob.slime.death`\n\n`mob.slime.hurt`\n\n`mob.slime.jump`\n\n`mob.slime.small`\n\n`mob.slime.squish`\n\n## 七巧板\n\n`mob.snowgolem.death`\n\n`mob.snowgolem.hurt`\n\n`mob.snowgolem.shoot`\n\n## 蜘蛛\n\n`mob.spider.death`\n\n`mob.spider.say`\n\n`mob.spider.step`\n\n## 鱿鱼\n\n`mob.squid.ambient`\n\n`mob.squid.death`\n\n`mob.squid.hurt`\n\n## 流浪者\n\n`mob.stray.ambient`\n\n`mob.stray.death`\n\n`mob.stray.hurt`\n\n`mob.stray.step`\n\n## 海龟\n\n`mob.turtle.ambient`\n\n`mob.turtle.death`\n\n`mob.turtle.hurt`\n\n`mob.turtle.step`\n\n`mob.turtle.swim`\n\n## turtle\\_baby\n\n`mob.turtle_baby.born`\n\n`mob.turtle_baby.death`\n\n`mob.turtle_baby.hurt`\n\n`mob.turtle_baby.step`\n\n## 恼鬼\n\n`mob.vex.ambient`\n\n`mob.vex.charge`\n\n`mob.vex.death`\n\n`mob.vex.hurt`\n\n## 村民\n\n`mob.villager.death`\n\n`mob.villager.haggle`\n\n`mob.villager.hit`\n\n`mob.villager.idle`\n\n`mob.villager.no`\n\n`mob.villager.yes`\n\n## 辩护人\n\n`mob.vindicator.celebrate`\n\n`mob.vindicator.death`\n\n`mob.vindicator.hurt`\n\n`mob.vindicator.idle`\n\n## 流浪商人\n\n`mob.wanderingtrader.death`\n\n`mob.wanderingtrader.disappeared`\n\n`mob.wanderingtrader.drink_milk`\n\n`mob.wanderingtrader.drink_potion`\n\n`mob.wanderingtrader.haggle`\n\n`mob.wanderingtrader.hurt`\n\n`mob.wanderingtrader.idle`\n\n`mob.wanderingtrader.no`\n\n`mob.wanderingtrader.reappeared`\n\n`mob.wanderingtrader.yes`\n\n## 女巫\n\n`mob.witch.ambient`\n\n`mob.witch.celebrate`\n\n`mob.witch.death`\n\n`mob.witch.drink`\n\n`mob.witch.hurt`\n\n`mob.witch.throw`\n\n## 凋零\n\n`mob.wither.ambient`\n\n`mob.wither.break_block`\n\n`mob.wither.death`\n\n`mob.wither.hurt`\n\n`mob.wither.shoot`\n\n`mob.wither.spawn`\n\n## 狼\n\n`mob.wolf.bark`\n\n`mob.wolf.death`\n\n`mob.wolf.growl`\n\n`mob.wolf.hurt`\n\n`mob.wolf.panting`\n\n`mob.wolf.shake`\n\n`mob.wolf.step`\n\n`mob.wolf.whine`\n\n## 僵尸\n\n`mob.zombie.death`\n\n`mob.zombie.hurt`\n\n`mob.zombie.remedy`\n\n`mob.zombie.say`\n\n`mob.zombie.step`\n\n`mob.zombie.unfect`\n\n`mob.zombie.wood`\n\n`mob.zombie.woodbreak`\n\n## 僵尸村民\n\n`mob.zombie_villager.death`\n\n`mob.zombie_villager.hurt`\n\n`mob.zombie_villager.say`\n\n## 僵尸猪人\n\n`mob.zombiepig.zpig`\n\n`mob.zombiepig.zpigangry`\n\n`mob.zombiepig.zpigdeath`\n\n`mob.zombiepig.zpighurt`\n\n# 音乐\n\n`music.game`\n\n`music.game.creative`\n\n`music.game.credits`\n\n`music.game.end`\n\n`music.game.endboss`\n\n`music.game.nether`\n\n`music.menu`\n\n# 注意\n\n`note.banjo`\n\n`note.bass`\n\n`note.bassattack`\n\n`note.bd`\n\n`note.bell`\n\n`note.bit`\n\n`note.chime`\n\n`note.cow_bell`\n\n`note.didgeridoo`\n\n`note.flute`\n\n`note.guitar`\n\n`note.harp`\n\n`note.hat`\n\n`note.iron_xylophone`\n\n`note.pling`\n\n`note.snare`\n\n`note.xylophone`\n\n# 门户网站\n\n`portal.portal`\n\n`portal.travel`\n\n`portal.trigger`\n\n# 袭击\n\n`raid.horn`\n\n# 随机\n\n`random.anvil_break`\n\n`random.anvil_land`\n\n`random.anvil_use`\n\n`random.bow`\n\n`random.bowhit`\n\n`random.break`\n\n`random.burp`\n\n`random.chestclosed`\n\n`random.chestopen`\n\n`random.click`\n\n`random.door_close`\n\n`random.door_open`\n\n`random.drink`\n\n`random.eat`\n\n`random.enderchestclosed`\n\n`random.enderchestopen`\n\n`random.explode`\n\n`random.fizz`\n\n`random.fuse`\n\n`random.glass`\n\n`random.hurt`\n\n`random.levelup`\n\n`random.orb`\n\n`random.pop`\n\n`random.pop2`\n\n`random.potion.brewed`\n\n`random.screenshot`\n\n`random.shulkerboxclosed`\n\n`random.shulkerboxopen`\n\n`random.splash`\n\n`random.swim`\n\n`random.toast`\n\n`random.totem`\n\n# 记录\n\n`record.11`\n\n`record.13`\n\n`record.blocks`\n\n`record.cat`\n\n`record.chirp`\n\n`record.far`\n\n`record.mall`\n\n`record.mellohi`\n\n`record.stal`\n\n`record.strad`\n\n`record.wait`\n\n`record.ward`\n\n# 步\n\n`step.cloth`\n\n`step.grass`\n\n`step.gravel`\n\n`step.ladder`\n\n`step.sand`\n\n`step.slime`\n\n`step.snow`\n\n`step.stone`\n\n`step.wood`\n\n# 瓦\n\n`tile.piston.in`\n\n`tile.piston.out`\n\n# UI\n\n`ui.cartography_table.take_result`\n\n`ui.loom.select_pattern`\n\n`ui.loom.take_result`\n\n`ui.stonecutter.take_result`\n\n# 利用\n\n`use.cloth`\n\n`use.grass`\n\n`use.gravel`\n\n`use.ladder`\n\n`use.sand`\n\n`use.slime`\n\n`use.snow`\n\n`use.stone`\n\n`use.wood`\n\n# VR\n\n`vr.stutterturn`"},"options":{"base":"..\/..\/..\/","environment":"reader"},"style":""}</script><script type="text/javascript">kancloud.bootstrap('app');</script></body></html>
