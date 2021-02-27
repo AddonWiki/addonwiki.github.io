@@ -3,16 +3,22 @@
         "highlight",
         "tex",
         "ad",
-        "copyright",
         "image-zoom",
         "sequence",
         "flow",
         "copy-code",
-        "audio"
+        "audio",
+        "copyright"
     ],
     "pluginsConfig": {
         "theme-default": {
-            "auto_open": true
+            "auto_open": true,
+            "show_nav": true,
+            "logo": {
+                "image": "https://img.imgdb.cn/item/6034a72f5f4313ce25324c9e.png",
+                "url": "/"
+            },
+            "navs": []
         },
         "highlight": {
             "defaultLanguage": "javascript"
